@@ -1,0 +1,785 @@
+﻿GermLayer,DifferentiationState,Stage,CellName,CellTypeID,Anatomy1,Anatomy2,Sulston,CellType,Generalized
+3:Endodermal,3:Multipotent/Progenitor/Precursor,e,Z2,106,100-cell embryo,Repro,Z2,Gonad,Gonad
+3:Endodermal,3:Multipotent/Progenitor/Precursor,e,Z3,106,100-cell embryo,Repro,Z3,Gonad,Gonad
+4:Mesodermal,3:Multipotent/Progenitor/Precursor,e,MSpppaap,107,Somatic gonad precursor cell,,Z1,Gonad,Gonad
+4:Mesodermal,3:Multipotent/Progenitor/Precursor,e,MSappaap,107,Somatic gonad precursor cell,,Z4,Gonad,Gonad
+4:Mesodermal,4:Terminally differentiated,e,Dppppp,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Dppppa,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Dpppap,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Dpppaa,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Dppap,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Dppaa,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Dpapp,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Dpapa,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Dpaap,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Dpaaa,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Dapppp,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Dapppa,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Dappap,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Dappaa,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Dapap,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Dapaa,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Daapp,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Daapa,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Daaap,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Daaaa,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Cpppppv,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Cpppppd,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Cppppap,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Cppppaa,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Cpppapp,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Cpppapa,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Cpppaap,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Cpppaaa,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Cppappp,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Cppappa,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Cppapap,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Cppapaa,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Cppaapp,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Cppaapa,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Cppaaap,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Cppaaaa,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+2:Ectodermal,4:Terminally differentiated,e,Cpappv,109,Tail,Dorsal hypodermis,hyp11,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,Cpappd,109,Embryonic large hypodermal syncytium,Hypoderm,hyp7,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,Cpapap,109,Embryonic large hypodermal syncytium,Hypoderm,hyp7,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,Cpapaa,109,Embryonic large hypodermal syncytium,Hypoderm,hyp7,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,Cpaapp,109,Embryonic large hypodermal syncytium,Hypoderm,hyp7,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,Cpaapa,109,Embryonic large hypodermal syncytium,Hypoderm,hyp7,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,Cpaaap,109,Embryonic large hypodermal syncytium,Hypoderm,hyp7,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,Cpaaaa,109,Embryonic large hypodermal syncytium,Hypoderm,hyp7,Hypodermal cell,Hypodermis
+4:Mesodermal,4:Terminally differentiated,e,Cappppv,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Cappppd,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Capppap,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Capppaa,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Cappapp,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Cappapa,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Cappaap,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Cappaaa,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Capappp,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Capappa,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Capapap,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Capapaa,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Capaapp,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Capaapa,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Capaaap,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,Capaaaa,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+2:Ectodermal,4:Terminally differentiated,e,Caappv,110,Tail,Neuron,PVR,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,Caappd,109,Embryonic large hypodermal syncytium,Hypoderm,hyp7,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,Caapaa,110,Tail,Dorso-rectal ganglion,DVC,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,Caaapp,109,Embryonic large hypodermal syncytium,Hypoderm,hyp7,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,Caaapa,109,Embryonic large hypodermal syncytium,Hypoderm,hyp7,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,Caaaap,109,Embryonic large hypodermal syncytium,Hypoderm,hyp7,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,Caaaaa,109,Embryonic large hypodermal syncytium,Hypoderm,hyp7,Hypodermal cell,Hypodermis
+4:Mesodermal,4:Terminally differentiated,e,MSpppppp,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,MSpppppa,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,MSppppap,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,MSppppaa,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,MSpppapp,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,MSppappp,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,MSppappa,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,MSppapap,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,MSppapaap,105,Embryo,Celom,ccPR,Coelomocyte,Coelomocyte
+4:Mesodermal,4:Terminally differentiated,e,MSppapaaa,105,Embryo,Celom,ccAR,Coelomocyte,Coelomocyte
+4:Mesodermal,4:Terminally differentiated,e,MSppaaap,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,MSppaapp,112,Stomatointestinal muscle,Muscle,mu IntR,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,MSppaaaav,112,Pharyngeal isthmus,Pseudocoelom,GLRVR,Other,Other
+4:Mesodermal,4:Terminally differentiated,e,MSppaaaad,112,Pharyngeal isthmus,Pseudocoelom,GLRR,Other,Other
+4:Mesodermal,4:Terminally differentiated,e,MSpappppp,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,MSpappppa,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,MSpapppap,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,MSpapppaa,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,MSpappap,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,MSpappaa,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,MSpapappp,129,Pharyngo-intestinal junction,Second pharyngeal valve ring,vpi2DR,Valve cell,Other
+4:Mesodermal,4:Terminally differentiated,e,MSpapappa,112,Pharynx,Muscle,m6VR,Muscle cell,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,MSpapapaa,108,Pharynx,Gland,g2R,Glandular cell,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,MSpapaapp,112,Pharynx,Muscle,m7VR,Muscle cell,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,MSpapaapaa,108,Pharynx,Gland,g1AR,Glandular cell,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,MSpapaaap,112,Pharynx,Muscle,m5VR,Muscle cell,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,MSpapaaaa,112,Pharynx,Muscle,m4VR,Muscle cell,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,MSpaapapp,129,Pharyngo-intestinal junction,First pharyngeal valve ring,vpi1,Valve cell,Other
+4:Mesodermal,4:Terminally differentiated,e,MSpaapapa,117,Pharynx,Marginal,mc3DR,Pharyngeal marginal cell,Pharynx
+2:Ectodermal,4:Terminally differentiated,e,MSpaapaaa,114,Pharynx,Neuron,M1,Neuron,Neuron
+4:Mesodermal,4:Terminally differentiated,e,MSpaaappp,112,Pharynx,Muscle,m6D,Muscle cell,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,MSpaaappa,112,Pharynx,Muscle,m5DR,Muscle cell,Pharynx
+2:Ectodermal,4:Terminally differentiated,e,MSpaaapap,114,Pharynx,Neuron,M5,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,MSpaaapaa,110,Pharynx,Posterior bulb,I6,Interneuron,Neuron
+4:Mesodermal,4:Terminally differentiated,e,MSpaaaapp,112,Pharynx,Muscle,m4DR,Muscle cell,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,MSpaaaapa,112,Pharynx,Muscle,m3DR,Muscle cell,Pharynx
+2:Ectodermal,4:Terminally differentiated,e,MSpaaaaaa,114,Pharynx,Neuron,M4,Neuron,Neuron
+4:Mesodermal,4:Terminally differentiated,e,MSappppp,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,MSappppa,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,MSapppap,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,MSapppaa,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,MSappapp,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,MSappaaa,113,Mesoderm,Other,hmc,Mesodermal cell,Other
+4:Mesodermal,4:Terminally differentiated,e,MSapappp,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,MSapappa,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,MSapapap,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,MSapapaap,105,Embryo,Celom,ccPL,Coelomocyte,Coelomocyte
+4:Mesodermal,4:Terminally differentiated,e,MSapapaaa,105,Embryo,Celom,ccAL,Coelomocyte,Coelomocyte
+4:Mesodermal,3:Multipotent/Progenitor/Precursor,e,MSapaapp,13,Embryo,Postembryonic mesoblast,M,Blast Cell,Blast Cell
+4:Mesodermal,4:Terminally differentiated,e,MSapaaap,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,MSapaaaav,112,Pharyngeal isthmus,Pseudocoelom,GLRVL,Other,Other
+4:Mesodermal,4:Terminally differentiated,e,MSapaaaad,112,Pharyngeal isthmus,Pseudocoelom,GLRL,Other,Other
+4:Mesodermal,4:Terminally differentiated,e,MSaappppp,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,MSaappppa,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,MSaapppap,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,MSaapppaa,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,MSaappap,129,Pharyngo-intestinal junction,Third pharyngeal valve ring,vpi3V,Valve cell,Other
+4:Mesodermal,4:Terminally differentiated,e,MSaappaa,129,Pharyngo-intestinal junction,Second pharyngeal valve ring,vpi2V,Valve cell,Other
+4:Mesodermal,4:Terminally differentiated,e,MSaapappp,129,Pharyngo-intestinal junction,Second pharyngeal valve ring,vpi2DL,Valve cell,Other
+4:Mesodermal,4:Terminally differentiated,e,MSaapappa,112,Pharynx,Muscle,m6VL,Muscle cell,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,MSaapapaa,108,Pharynx,Gland,g2L,Glandular cell,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,MSaapaapp,112,Pharynx,Muscle,m7VL,Muscle cell,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,MSaapaapaa,108,Pharynx,Gland,g1AL,Glandular cell,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,MSaapaaap,112,Pharynx,Muscle,m5VL,Muscle cell,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,MSaapaaaa,112,Pharynx,Muscle,m4VL,Muscle cell,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,MSaaappp,129,Pharyngo-intestinal junction,Third pharyngeal valve ring,vpi3D,Valve cell,Other
+4:Mesodermal,4:Terminally differentiated,e,MSaaapapp,112,Pharynx,Muscle,m8,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,MSaaapapa,117,Pharynx,Marginal,mc3DL,Pharyngeal marginal cell,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,MSaaapaap,112,Pharynx,Muscle,m4L,Muscle cell,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,MSaaapaaa,112,Pharynx,Muscle,m3DL,Muscle cell,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,MSaaaappp,112,Pharynx,Muscle,mD7,Muscle cell,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,MSaaaapap,112,Pharynx,Muscle,m5DL,Muscle cell,Pharynx
+2:Ectodermal,4:Terminally differentiated,e,MSaaaapaa,110,Pharynx,Neuron,I4,Interneuron,Neuron
+4:Mesodermal,4:Terminally differentiated,e,MSaaaaapp,112,Pharynx,Muscle,m4DL,Muscle cell,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,MSaaaaapap,108,Pharynx,Gland,g1P,Glandular cell,Pharynx
+2:Ectodermal,4:Terminally differentiated,e,MSaaaaapaa,110,Pharynx,Anterior bulb,I3,Interneuron,Neuron
+4:Mesodermal,4:Terminally differentiated,e,MSaaaaaar,112,Pharyngeal isthmus,Pseudocoelom,GLRDR,Other,Other
+4:Mesodermal,4:Terminally differentiated,e,MSaaaaaal,112,Pharyngeal isthmus,Pseudocoelom,GLRDL,Other,Other
+3:Endodermal,4:Terminally differentiated,e,Eprpppp,111,Intestine,Intestine,int9Rp,Intestinal cell,Intestine
+3:Endodermal,4:Terminally differentiated,e,Eprpppa,111,Intestine,Intestine,int9Ra,Intestinal cell,Intestine
+3:Endodermal,4:Terminally differentiated,e,Eprppap,111,Intestine,Intestine,int8Rp,Intestinal cell,Intestine
+3:Endodermal,4:Terminally differentiated,e,Eprppaa,111,Intestine,Intestine,int8Ra,Intestinal cell,Intestine
+3:Endodermal,4:Terminally differentiated,e,Eprpap,111,Intestine,Intestine,int7Rp,Intestinal cell,Intestine
+3:Endodermal,4:Terminally differentiated,e,Eprpaa,111,Intestine,Intestine,int7Ra,Intestinal cell,Intestine
+3:Endodermal,4:Terminally differentiated,e,Eprapp,111,Intestine,Intestine,int6Rp,Intestinal cell,Intestine
+3:Endodermal,4:Terminally differentiated,e,Eprapa,111,Intestine,Intestine,int6Ra,Intestinal cell,Intestine
+3:Endodermal,4:Terminally differentiated,e,Epraap,111,Intestine,Intestine,int4Dp,Intestinal cell,Intestine
+3:Endodermal,4:Terminally differentiated,e,Epraaa,111,Intestine,Intestine,int4Da,Intestinal cell,Intestine
+3:Endodermal,4:Terminally differentiated,e,Eplpppp,111,Intestine,Intestine,int9Lp,Intestinal cell,Intestine
+3:Endodermal,4:Terminally differentiated,e,Eplpppa,111,Intestine,Intestine,int9La,Intestinal cell,Intestine
+3:Endodermal,4:Terminally differentiated,e,Eplppap,111,Intestine,Intestine,int8Lp,Intestinal cell,Intestine
+3:Endodermal,4:Terminally differentiated,e,Eplppaa,111,Intestine,Intestine,int8La,Intestinal cell,Intestine
+3:Endodermal,4:Terminally differentiated,e,Eplpap,111,Intestine,Intestine,int7Lp,Intestinal cell,Intestine
+3:Endodermal,4:Terminally differentiated,e,Eplpaa,111,Intestine,Intestine,int7La,Intestinal cell,Intestine
+3:Endodermal,4:Terminally differentiated,e,Eplapp,111,Intestine,Intestine,int6Lp,Intestinal cell,Intestine
+3:Endodermal,4:Terminally differentiated,e,Eplapa,111,Intestine,Intestine,int6La,Intestinal cell,Intestine
+3:Endodermal,4:Terminally differentiated,e,Eplaap,111,Intestine,Intestine,int4Vp,Intestinal cell,Intestine
+3:Endodermal,4:Terminally differentiated,e,Eplaaa,111,Intestine,Intestine,int4Va,Intestinal cell,Intestine
+3:Endodermal,4:Terminally differentiated,e,Earppp,111,Intestine,Intestine,int5Rp,Intestinal cell,Intestine
+3:Endodermal,4:Terminally differentiated,e,Earppa,111,Intestine,Intestine,int5Ra,Intestinal cell,Intestine
+3:Endodermal,4:Terminally differentiated,e,Earpa,111,Intestine,Intestine,int2D,Intestinal cell,Intestine
+3:Endodermal,4:Terminally differentiated,e,Earapp,111,Intestine,Intestine,int3Dp,Intestinal cell,Intestine
+3:Endodermal,4:Terminally differentiated,e,Earapa,111,Intestine,Intestine,int3Da,Intestinal cell,Intestine
+3:Endodermal,4:Terminally differentiated,e,Earaav,111,Intestine,Intestine,int1VR,Intestinal cell,Intestine
+3:Endodermal,4:Terminally differentiated,e,Earaad,111,Intestine,Intestine,int1DR,Intestinal cell,Intestine
+3:Endodermal,4:Terminally differentiated,e,Ealppp,111,Intestine,Intestine,int5Lp,Intestinal cell,Intestine
+3:Endodermal,4:Terminally differentiated,e,Ealppa,111,Intestine,Intestine,int5La,Intestinal cell,Intestine
+3:Endodermal,4:Terminally differentiated,e,Ealpa,111,Intestine,Intestine,int2V,Intestinal cell,Intestine
+3:Endodermal,4:Terminally differentiated,e,Ealapp,111,Intestine,Intestine,int3Vp,Intestinal cell,Intestine
+3:Endodermal,4:Terminally differentiated,e,Ealapa,111,Intestine,Intestine,int3Va,Intestinal cell,Intestine
+3:Endodermal,4:Terminally differentiated,e,Ealaav,111,Intestine,Intestine,int1VL,Intestinal cell,Intestine
+3:Endodermal,4:Terminally differentiated,e,Ealaad,111,Intestine,Intestine,int1DL,Intestinal cell,Intestine
+2:Ectodermal,4:Terminally differentiated,e,ABprppppppp,109,Tail,Ventral hypodermis,hyp10,Hypodermal cell,Hypodermis
+2:Ectodermal,3:Multipotent/Progenitor/Precursor,e,ABprppppppa,126,Tail,Other,tail spike,Tail spike scaffold cell,Hypodermis
+4:Mesodermal,4:Terminally differentiated,e,ABprpppppaa,112,Embryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,ABprpppppap,112,Sphincter muscle - rectal valve,Rectal,mu sph,Muscle cell,Muscle
+2:Ectodermal,4:Terminally differentiated,e,ABprppppapp,110,Head,Nerve ring,DVA,Interneuron,Neuron
+3:Endodermal,4:Terminally differentiated,e,ABprppppapa,120,Tail,Rectal,B,Rectal cell,Other
+2:Ectodermal,4:Terminally differentiated,e,ABprppppaap,104,Tail,Rectal,rect VR,Gland cell,Other
+2:Ectodermal,4:Terminally differentiated,e,ABplpappppp,104,Tail,Rectal,rect D,Gland cell,Other
+2:Ectodermal,4:Terminally differentiated,e,ABprppppaaa,110,Body,Ventral nerve cord,PVPR,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprpppapap,109,Tail,Ventral hypodermis,hyp9,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABprpppapaa,118,Tail,Sheath,PHshR,Phasmid sheath cell,Other
+2:Ectodermal,4:Terminally differentiated,e,ABprpppaapp,114,Body,Lumbar ganglia,PHAR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprpppaapap,110,Body,Lumbar ganglia,LUAR,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprpppaapaa,110,Body,Lumbar ganglia,PVCR,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprpppaaap,114,Body,Ventral nerve cord,DA7,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprpppaaaa,114,Body,Ventral nerve cord,PDA,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprppapppp,114,Body,Ventral nerve cord,DD6,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprppapppa,114,Body,Ventral nerve cord,DD4,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprppappap,114,Body,Ventral nerve cord,DD2,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprppappaa,110,Head,Nerve ring,RIGR,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprppapapp,114,Body,Ventral nerve cord,DA5,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprppapapa,114,Body,Ventral nerve cord,DA3,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprppapaap,114,Body,Ventral nerve cord,DA1,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprppapaaap,110,Head,Nerve ring,RIFR,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprppapaaaa,110,Head,Nerve ring,SABVR,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprppaappp,114,Body,Ventral nerve cord,DB7,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprppaappa,110,Head,Amphid sensillum,AIAR,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprppaapap,114,Head,Nerve ring,RIMR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprppaaaapp,110,Head,Nerve ring,RICR,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprppaaaaa,114,Head,Ventral ganglion,SIBDR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprpappppp,104,Intestino-rectal junction,Valve,virL,Epithelial cell,Epithelial
+2:Ectodermal,4:Terminally differentiated,e,ABprpappppa,104,Intestino-rectal junction,Valve,virR,Epithelial cell,Epithelial
+2:Ectodermal,4:Terminally differentiated,e,ABprpapppap,114,Body,Ventral nerve cord,AVG,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprpapppaa,110,Head,Nerve ring,RIR,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprpappapp,114,Body,Ventral nerve cord,DB4,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprpappapa,110,Head,Nerve ring,RIS,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprpappaap,110,Head,Ventral ganglion,AVL,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprpappaaa,110,Head,Nerve ring,RIH,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprpapappp,114,Body,Ventral nerve cord,DA8,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprpapappa,114,Head,Nerve ring,SIAVR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprpapapaa,131,Body,Gland,Exc gl R,Gland cell,Excretory
+2:Ectodermal,4:Terminally differentiated,e,ABplpapapaa,131,Body,Gland,Exc gl L,Gland cell,Excretory
+2:Ectodermal,4:Terminally differentiated,e,ABplpaaaapa,131,Body,Gland,Exc duct,Excretory Duct cell,Excretory
+2:Ectodermal,4:Terminally differentiated,e,ABprpapapap,110,Head,Ventral ganglion,AVKR,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprpapaapp,114,Head,Ventral ganglion,SIBVR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprpapaapa,114,Head,Nerve ring,SIADR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprpapaaap,110,Head,Amphid sensillum,AIYR,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprpapaaaa,110,Head,Nerve ring,SMDDR,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprpaappppa,114,Head,Cephalic sensilla,CEPVR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprpaapppa,110,Head,Nerve ring,AIMR,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprpaappap,110,Head,Nerve ring,RIBR,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprpaappaa,114,Head,Amphid sensillum,ASHR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprpaapapp,115,Head,Neuron,CEMVR,Neuron (male specific),Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprpaapapa,127,Amphid,Socket,AMsoR,Socket cell,Other
+2:Ectodermal,4:Terminally differentiated,e,ABprpaapaap,110,Head,Lateral ganglia,AVBR,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprpaapaaa,110,Head,Nerve ring,RIVR,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprpaaappp,114,Head,Nerve ring,URYVR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprpaaappaa,114,Head,Outer labial sensilla,OLQVR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprpaaapap,122,Head,Ring and part of ventral ganglion,CEPshVR,Sheath cell (glia?),Other
+2:Ectodermal,4:Terminally differentiated,e,ABprpaaapaa,114,Head,Nerve ring,URAVR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprpaaaapp,114,Body,Ventral nerve cord,DB3,Neuron,Neuron
+2:Ectodermal,3:Multipotent/Progenitor/Precursor,e,ABprpaaaapa,13,Body,excretory socket in embryo,G1,Blast Cell,Blast Cell
+2:Ectodermal,4:Terminally differentiated,e,ABprpaaaaap,100,Head,Amphid sensillum,AWCR,Amphid wing neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprpaaaaaa,110,Head,Nerve ring,SAAVR,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprappppa,109,Embryonic large hypodermal syncytium,Hypoderm,hyp7,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABprapppappp,114,Body,Lumbar ganglia,PHBR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprapppappa,114,Body,Midbody,HSNR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprapppaaa,110,Body,Ventral nerve cord,PVQR,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprapappppap,114,Tail,Neuron,ALNR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprapappppaa,114,Body,Lumbar ganglia,PLMR,Neuron,Neuron
+2:Ectodermal,3:Multipotent/Progenitor/Precursor,e,ABprapapaap,123,Apical midline,Hypoderm,V5R,Seam hypodermal cell,Seam Cell
+2:Ectodermal,4:Terminally differentiated,e,ABprapaaapp,114,Head,Nerve ring,RMGR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprapaaapav,110,Head,Amphid sensillum,AIZR,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprapaaapad,114,Head,Neuron,FLPR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprapaaaapp,110,Head,Nerve ring,ADAR,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABprapaaaapa,114,Head,Behind the second bulb of the pharynx,ADER,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABpraapppp,109,Embryonic large hypodermal syncytium,Hypoderm,hyp7,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABpraapppa,109,Embryonic large hypodermal syncytium,Hypoderm,hyp7,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABpraappap,109,Head,Cylindrical hypodermal syncytium,hyp6,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABpraappaa,109,Head,Cylindrical hypodermal syncytium,hyp4,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABpraapapppa,114,Head,Amphid sensillum,ASIR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABpraapappa,110,Head,Amphid sensillum,AIBR,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABpraapapap,114,Head,Amphid sensillum,ASGR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABpraapapaa,100,Head,Amphid sensillum,AWAR,Amphid wing neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABpraapaapp,101,Body,Sheath,AMshR,Amphid sheath cell,Other
+2:Ectodermal,4:Terminally differentiated,e,ABpraapaapa,114,Head,Nerve ring,URBR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABpraapaaap,127,Labium,Inner labial,ILsoDR,Socket cell,Other
+2:Ectodermal,4:Terminally differentiated,e,ABpraapaaaa,109,Head,Cylindrical hypodermal syncytium,hyp3,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABpraaappppp,114,Head,Lateral ganglia,AUAR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABpraaappppa,114,Head,Amphid sensillum,ASJR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABpraaapppaa,114,Head,Amphid sensillum,ASER,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABpraaappap,100,Head,Amphid sensillum,AWBR,Amphid wing neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABpraaappaa,114,Head,Amphid sensillum,ADFR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABpraaapapaa,114,Head,Outer labial sensilla,OLLR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABpraaapaad,114,Head,Amphid sensillum,ADLR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABpraaaapppa,114,Head,Amphid sensillum,ASKR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABpraaaapav,102,Head,Amphid sensillum,AFDR,Amphid finger neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABpraaaapad,114,Head,Nerve ring,RMDR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABpraaaaapd,122,Lip,Lateral outer labial,OLLshR,Sheath cell (glia?),Other
+2:Ectodermal,4:Terminally differentiated,e,ABpraaaaaap,122,Lip,Quadrant outer labial,OLQshVR,Sheath cell (glia?),Other
+2:Ectodermal,4:Terminally differentiated,e,ABpraaaaaaa,110,Head,Lateral ganglia,AVER,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplppppppp,109,Tail,Ventral hypodermis,hyp10,Hypodermal cell,Hypodermis
+4:Mesodermal,4:Terminally differentiated,e,ABplpppppaa,112,Tail,Stomatointestinal muscle,mu IntL,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,e,ABplpppppap,112,Tail,Anal muscle cell,mu Anal,Muscle cell,Muscle
+2:Ectodermal,3:Multipotent/Progenitor/Precursor,e,ABplppppppa,126,Tail,Other,tail spike,Tail spike scaffold cell,Hypodermis
+3:Endodermal,4:Terminally differentiated,e,ABplppppapp,104,Body,Epithelium,F,Epithelial cell,Epithelial
+3:Endodermal,4:Terminally differentiated,e,ABplppppapa,121,Intestine,Rectal,U,Rectal cell (postembryonic blast cell in male),Blast Cell
+2:Ectodermal,4:Terminally differentiated,e,ABplppppaaa,110,Body,Ventral nerve cord,PVPL,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplppppaap,104,Tail,Rectal,rect VL,Gland cell,Other
+2:Ectodermal,4:Terminally differentiated,e,ABplpppapap,109,Tail,Ventral hypodermis,hyp8,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABplpppapaa,118,Tail,Sheath,PHshL,Phasmid sheath cell,Other
+2:Ectodermal,4:Terminally differentiated,e,ABplpppaapp,114,Body,Lumbar ganglia,PHAL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplpppaapap,110,Body,Lumbar ganglia,LUAL,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplpppaapaa,110,Body,Lumbar ganglia,PVCL,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplpppaaap,114,Body,Ventral nerve cord,DA6,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplpppaaaa,114,Body,Ventral nerve cord,DA9,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplppapppp,114,Body,Ventral nerve cord,DD5,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplppapppa,114,Body,Ventral nerve cord,DD3,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplppappap,114,Body,Ventral nerve cord,DD1,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplppappaa,110,Head,Nerve ring,RIGL,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplppapapp,114,Body,Ventral nerve cord,DA4,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplppapapa,114,Body,Ventral nerve cord,DA2,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplppapaap,110,Head,Nerve ring,SABD,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplppapaaap,110,Head,Nerve ring,RIFL,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplppapaaaa,110,Head,Nerve ring,SABVL,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplppaappp,114,Body,Ventral nerve cord,DB6,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplppaappa,110,Head,Amphid sensillum,AIAL,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplppaapap,114,Head,Nerve ring,RIML,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplppaaaapp,110,Head,Nerve ring,RICL,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplppaaaaa,114,Head,Lateral ganglia,SIBDL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplpappppa,110,Body,Pre-anal ganglion,PVT,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplpapppap,109,Intestine,Rectal,rect hyp,Hypodermal cell,Hypodermis
+3:Endodermal,3:Multipotent/Progenitor/Precursor,e,ABplpapppaa,121,Intestine,Rectal,K,Rectal cell (postembryonic blast cell in male),Blast Cell
+2:Ectodermal,4:Terminally differentiated,e,ABplpappaaa,114,Head,Nerve ring,RMEV,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplpappaap,134,Body,Excretory canal cell,Exc canal,Large H shaped excretory canal cell,Excretory
+2:Ectodermal,4:Terminally differentiated,e,ABplpapappp,114,Body,Ventral nerve cord,DB5,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplpapappa,114,Head,Nerve ring,SIAVL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplpapapap,110,Head,Ventral ganglion,AVKL,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplpapaapp,114,Head,Ventral ganglion,SIBVL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplpapaapa,114,Head,Nerve ring,SIADL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplpapaaap,110,Head,Amphid sensillum,AIYL,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplpapaaaa,114,Head,Nerve ring,SMDDL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplpaappppa,114,Head,Cephalic sensilla,CEPVL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplpaapppa,110,Head,Nerve ring,AIML,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplpaappap,110,Head,Nerve ring,RIBL,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplpaappaa,114,Head,Amphid sensillum,ASHL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplpaapapp,114,Head,Neuron,CEMVL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplpaapapa,127,Amphid,Socket,AMsoL,Socket cell,Other
+2:Ectodermal,4:Terminally differentiated,e,ABplpaapaap,114,Body,Ventral nerve cord,AVBL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplpaapaaa,110,Head,Nerve ring,RIVL,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplpaaappp,114,Head,Nerve ring,URYVL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplpaaappaa,114,Head,Outer labial sensilla,OLQVL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplpaaapap,122,Head,Ring and part of ventral ganglion,CEPshVL,Sheath cell (glia?),Other
+2:Ectodermal,4:Terminally differentiated,e,ABplpaaapaa,114,Head,Nerve ring,URAVL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplpaaaapp,114,Body,Ventral nerve cord,DB1,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplpaaaaap,100,Head,Amphid sensillum,AWCL,Amphid wing neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplpaaaaaa,110,Head,Nerve ring,SAAVL,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplappppa,109,Embryonic large hypodermal syncytium,Hypoderm,hyp7,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABplapppappp,114,Body,Lumbar ganglia,PHBL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplapppappa,114,Body,Midbody,HSNL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplapppaaa,110,Body,Ventral nerve cord,PVQL,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplapappppap,114,Tail,Neuron,ALNL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplapappppaa,114,Body,Lumbar ganglia,PLML,Neuron,Neuron
+2:Ectodermal,3:Multipotent/Progenitor/Precursor,e,ABplapapaaa,13,Head,"Postembryonic neuroblast, migrates anteriorly",QL,Neuroblast,Neuron
+2:Ectodermal,3:Multipotent/Progenitor/Precursor,e,ABplapapaap,123,Apical midline,Hypoderm,V5L,Seam hypodermal cell,Seam Cell
+2:Ectodermal,4:Terminally differentiated,e,ABplapaaapp,114,Head,Nerve ring,RMGL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplapaaapav,110,Head,Amphid sensillum,AIZL,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplapaaapad,114,Head,Neuron,FLPL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplapaaaapp,110,Head,Nerve ring,ADAL,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplapaaaapa,114,Head,Behind the second bulb of the pharynx,ADEL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplaapppp,109,Embryonic large hypodermal syncytium,Hypoderm,hyp7,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABplaapppa,109,Embryonic large hypodermal syncytium,Hypoderm,hyp7,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABplaappap,109,Head,Cylindrical hypodermal syncytium,hyp6,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABplaappaa,109,Head,Cylindrical hypodermal syncytium,hyp4,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABplaapapppa,114,Head,Amphid sensillum,ASIL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplaapappa,110,Head,Amphid sensillum,AIBL,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplaapapap,114,Head,Amphid sensillum,ASGL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplaapapaa,100,Head,Amphid sensillum,AWAL,Amphid wing neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplaapaapp,101,Body,Sheath,AMshL,Amphid sheath cell,Other
+2:Ectodermal,4:Terminally differentiated,e,ABplaapaapa,114,Head,Nerve ring,URBL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplaapaaap,127,Labium,Inner labial,ILsoDL,Socket cell,Other
+2:Ectodermal,4:Terminally differentiated,e,ABplaapaaaa,109,Head,Cylindrical hypodermal syncytium,hyp3,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABplaaappa,123,Apical midline,Hypoderm,H0L,Seam hypodermal cell,Seam Cell
+2:Ectodermal,4:Terminally differentiated,e,ABplaaapap,109,Head,Cylindrical hypodermal syncytium,hyp5,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABplaaapaa,109,Head,Hypoderm,XXXL,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABplaaaapp,109,Head,Cylindrical hypodermal syncytium,hyp6,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABplaaaapa,109,Head,Cylindrical hypodermal syncytium,hyp6,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABplaaaaappp,110,Head,Nerve ring,URXL,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplaaaaappa,114,Head,Cephalic sensilla,CEPDL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplaaaaaap,114,Head,Neuron,CEMDL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABplaaaaaaa,114,Head,Nerve ring,URADL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABarpppappp,114,Body,Anterior half of the body,BDUR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABarpppappa,114,Body,Lateral in midbody,ALMR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABarpppapa,109,Embryonic large hypodermal syncytium,Hypoderm,hyp7,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABarpppaaa,122,Head,Anterior deirid,ADEshR,Sheath cell (glia?),Other
+2:Ectodermal,4:Terminally differentiated,e,ABarppaappp,114,Body,Anterior half of the body,BDUL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABarppaappa,114,Body,Lateral in midbody,ALML,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABarppaapa,109,Embryonic large hypodermal syncytium,Hypoderm,hyp7,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABarppaaaa,122,Head,Anterior deirid,ADEshL,Sheath cell (glia?),Other
+2:Ectodermal,4:Terminally differentiated,e,ABarpapppa,123,Apical midline,Hypoderm,H0R,Seam hypodermal cell,Seam Cell
+2:Ectodermal,4:Terminally differentiated,e,ABarpappap,109,Head,Cylindrical hypodermal syncytium,hyp5,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABarpappaa,109,Head,Hypoderm,XXXR,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABarpapapp,109,Head,Cylindrical hypodermal syncytium,hyp6,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABarpapapa,109,Head,Cylindrical hypodermal syncytium,hyp4,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABarpapaappp,110,Head,Nerve ring,URXR,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABarpapaappa,114,Head,Cephalic sensilla,CEPDR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABarpapaaap,114,Head,Neuron,CEMDR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABarpapaaaa,114,Head,Nerve ring,URADR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABarpaappp,109,Embryonic large hypodermal syncytium,Hypoderm,hyp7,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABarpaappa,109,Embryonic large hypodermal syncytium,Hypoderm,hyp7,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABarpaapap,109,Embryonic large hypodermal syncytium,Hypoderm,hyp7,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABarpaapaa,109,Head,Cylindrical hypodermal syncytium,hyp6,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABarpaaapap,122,Head,Ring and part of ventral ganglion,CEPshDR,Sheath cell (glia?),Other
+2:Ectodermal,4:Terminally differentiated,e,ABarpaaapaa,122,Lip,Quadrant outer labial,OLQshDR,Sheath cell (glia?),Other
+2:Ectodermal,4:Terminally differentiated,e,ABarpaaaapp,122,Head,Ring and part of ventral ganglion,CEPshDL,Sheath cell (glia?),Other
+2:Ectodermal,4:Terminally differentiated,e,ABarpaaaapa,122,Lip,Quadrant outer labial,OLQshDL,Sheath cell (glia?),Other
+2:Ectodermal,4:Terminally differentiated,e,ABarpaaaaar,127,Lip,Quadrant outer labial,OLQsoDR,Socket cell,Other
+2:Ectodermal,4:Terminally differentiated,e,ABarpaaaaal,127,Lip,Quadrant outer labial,OLQsoDL,Socket cell,Other
+2:Ectodermal,4:Terminally differentiated,e,ABarapppppp,114,Lip,Inner labial,IL2VR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABarapppppaa,114,Lip,Inner labial,IL1VR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABarappppap,114,Head,Nerve ring,BAGR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABarappppaa,114,Head,Nerve ring,SMDVR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABarapppapp,127,Lip,Inner labial,ILsoVR,Socket cell,Other
+2:Ectodermal,4:Terminally differentiated,e,ABarapppapa,110,Head,Nerve ring,SAADR,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABarapppaap,122,Lip,Inner labial,ILshVR,Sheath cell (glia?),Other
+2:Ectodermal,4:Terminally differentiated,e,ABarapppaaa,114,Head,Nerve ring,RMDVR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABarappappp,114,Head,Nerve ring,SMBVR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABarappappa,114,Body,Ventral nerve cord,DB2,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABarappapapp,114,Head,Nerve ring,SMBDR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABarappapaa,114,Head,Nerve ring,RMDDR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABarappaapa,109,Head,Cylindrical hypodermal syncytium,hyp1V,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABarappaaaa,110,Head,Nerve ring,RIPR,Interneuron,Neuron
+4:Mesodermal,4:Terminally differentiated,e,ABarapapppp,112,Pharynx,Muscle,m3VR,Muscle cell,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,ABarapapppa,117,Pharynx,Marginal,mc2V,Pharyngeal marginal cell,Pharynx
+2:Ectodermal,4:Terminally differentiated,e,ABarapappaa,110,Pharynx,Anterior bulb,I1R,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABarapapapa,104,Pharynx,"Interface between pharynx and hypodermis, form anterior part of buccal cavity.",arc Post V,Other,Pharynx
+2:Ectodermal,4:Terminally differentiated,e,ABarapapapp,110,Pharynx,Posterior bulb,I5,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABarapapaapa,110,Pharynx,Anterior bulb,I2R,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABarapaappp,114,Pharynx,Neuron,MCR,Neuron,Neuron
+4:Mesodermal,4:Terminally differentiated,e,ABarapaappa,112,Pharynx,Muscle,m3R,Muscle cell,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,ABarapaapaa,112,Pharynx,Muscle,m2R,Muscle cell,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,ABarapaaapa,112,Pharynx,Muscle,m1VR,Muscle cell,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,ABarapaaaap,112,Pharynx,Muscle,m2VR,Muscle cell,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,ABarapaaaaa,104,Pharynx,Epithelium,e3VR,Epithelial cell,Epithelial
+2:Ectodermal,4:Terminally differentiated,e,ABaraappppp,114,Pharynx,Neuron,M3R,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABaraappppa,114,Pharynx,Neuron,M2R,Neuron,Neuron
+4:Mesodermal,4:Terminally differentiated,e,ABaraapppap,112,Pharynx,Muscle,m5R,Muscle cell,Pharynx
+2:Ectodermal,4:Terminally differentiated,e,ABaraapppaav,114,Pharynx,Neuron,NSMR,Neuron,Neuron
+4:Mesodermal,4:Terminally differentiated,e,ABaraappapp,117,Pharynx,Marginal,mc2DR,Pharyngeal marginal cell,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,ABaraappapa,112,Pharynx,Muscle,m2DR,Muscle cell,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,ABaraappaap,112,Pharynx,Muscle,m1DR,Muscle cell,Pharynx
+2:Ectodermal,4:Terminally differentiated,e,ABaraappaaa,114,Pharynx,Neuron,MI,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABaraapappp,114,Pharynx,Neuron,M3L,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABaraapappa,114,Pharynx,Neuron,M2L,Neuron,Neuron
+4:Mesodermal,4:Terminally differentiated,e,ABaraapapap,112,Pharynx,Muscle,m5L,Muscle cell,Pharynx
+2:Ectodermal,4:Terminally differentiated,e,ABaraapapaav,114,Pharynx,Neuron,NSML,Neuron,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,ABaraapaapp,117,Pharynx,Marginal,mc2DL,Pharyngeal marginal cell,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,ABaraapaapa,112,Pharynx,Muscle,m2DL,Muscle cell,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,ABaraapaaap,112,Pharynx,Muscle,m1DL,Muscle cell,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,ABaraapaaaa,104,Pharynx,Epithelium,e3D,Epithelial cell,Epithelial
+2:Ectodermal,4:Terminally differentiated,e,ABaraaapppp,109,Head,Cylindrical hypodermal syncytium,hyp1DR,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABaraaapppa,133,Lip,Arcade Cell anterior part of buccal cavity,arc ant DR,Epithelial cell,Epithelial
+2:Ectodermal,4:Terminally differentiated,e,ABaraaappap,133,Lip,Arcade Cell anterior part of buccal cavity,arc post VR,Epithelial cell,Epithelial
+2:Ectodermal,4:Terminally differentiated,e,ABaraaappaa,133,Lip,Arcade Cell anterior part of buccal cavity,arc post D,Epithelial cell,Epithelial
+2:Ectodermal,4:Terminally differentiated,e,ABaraaapaaa,133,Lip,Arcade Cell anterior part of buccal cavity,arc post DR,Epithelial cell,Epithelial
+2:Ectodermal,4:Terminally differentiated,e,ABalpapaapa,133,Lip,Arcade Cell anterior part of buccal cavity,arc post V,Epithelial cell,Epithelial
+2:Ectodermal,4:Terminally differentiated,e,ABalpaappap,133,Lip,Arcade Cell anterior part of buccal cavity,arc post VL,Epithelial cell,Epithelial
+2:Ectodermal,4:Terminally differentiated,e,ABalpaappaa,133,Lip,Arcade Cell anterior part of buccal cavity,arc ant DL,Epithelial cell,Epithelial
+2:Ectodermal,4:Terminally differentiated,e,ABalpaapaaa,133,Lip,Arcade Cell anterior part of buccal cavity,arc post DL,Epithelial cell,Epithelial
+2:Ectodermal,3:Multipotent/Progenitor/Precursor,e,ABprappppp,13,Tail,Hypoderm,TR,Seam hypodermal cell,Seam Cell
+2:Ectodermal,3:Multipotent/Progenitor/Precursor,e,ABprapappa,13,Body,Hypoderm,P12,Blast Cell,Blast Cell
+2:Ectodermal,3:Multipotent/Progenitor/Precursor,e,ABprapapap,13,Body,Hypoderm,P10,Blast Cell,Blast Cell
+2:Ectodermal,3:Multipotent/Progenitor/Precursor,e,ABplappppp,13,Tail,Hypoderm,TL,Seam hypodermal cell,Seam Cell
+2:Ectodermal,3:Multipotent/Progenitor/Precursor,e,ABplapappa,13,Body,Hypoderm,P11,Blast Cell,Blast Cell
+2:Ectodermal,3:Multipotent/Progenitor/Precursor,e,ABplapapap,13,Body,Hypoderm,P9,Blast Cell,Blast Cell
+4:Mesodermal,4:Terminally differentiated,e,ABaraaapapp,112,Pharynx,Muscle,m4R,Muscle cell,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,ABaraaapapa,117,Pharynx,Marginal,mc1DR,Pharyngeal marginal cell,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,ABaraaapaap,104,Pharynx,Epithelium,e2DR,Epithelial cell,Epithelial
+4:Mesodermal,4:Terminally differentiated,e,ABaraaaapap,104,Pharynx,Epithelium,e1D,Epithelial cell,Epithelial
+4:Mesodermal,4:Terminally differentiated,e,ABaraaaaapp,112,Pharynx,Muscle,m1R,Muscle cell,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,ABaraaaaapa,104,Pharynx,Epithelium,e1VR,Epithelial cell,Epithelial
+4:Mesodermal,4:Terminally differentiated,e,ABaraaaaaap,112,Pharynx,Muscle,m1L,Muscle cell,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,ABaraaaaaaa,104,Pharynx,Epithelium,e1VL,Epithelial cell,Epithelial
+2:Ectodermal,4:Terminally differentiated,e,ABalpppppppp,114,Head,Lateral ganglia,AUAL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalpppppppa,114,Head,Amphid sensillum,ASJL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalppppppaa,114,Head,Amphid sensillum,ASEL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalpppppap,100,Head,Amphid sensillum,AWBL,Amphid wing neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalpppppaa,114,Head,Amphid sensillum,ADFL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalppppapaa,114,Head,Outer labial sensilla,OLLL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalppppaad,114,Head,Amphid sensillum,ADLL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalpppapppa,114,Head,Amphid sensillum,ASKL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalpppapav,102,Head,Amphid sensillum,AFDL,Amphid finger neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalpppapad,114,Head,Nerve ring,RMDL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalpppaapd,122,Lip,Lateral outer labial,OLLshL,Sheath cell (glia?),Other
+2:Ectodermal,4:Terminally differentiated,e,ABalpppaaap,122,Lip,Quadrant outer labial,OLQshVL,Sheath cell (glia?),Other
+2:Ectodermal,4:Terminally differentiated,e,ABalpppaaaa,110,Head,Lateral ganglia,AVEL,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalppapppp,114,Lip,Inner labial sensilla,IL2VL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalppapppaa,114,Lip,Inner labial sensilla,IL1VL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalppappap,114,Head,Nerve ring,BAGL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalppappaa,114,Head,Nerve ring,SMDVL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalppapapp,127,Labium,Inner labial,ILsoVL,Socket cell,Other
+2:Ectodermal,4:Terminally differentiated,e,ABalppapapa,110,Head,Nerve ring,SAADL,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalppapaap,122,Lip,Inner labial,ILshVL,Sheath cell (glia?),Other
+2:Ectodermal,4:Terminally differentiated,e,ABalppapaaa,114,Head,Nerve ring,RMDVL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalppaappp,127,Head,Socket,CEPsoVL,Socket cell,Other
+2:Ectodermal,4:Terminally differentiated,e,ABalppaaapp,127,Lip,Quadrant outer labial,OLQsoVL,Socket cell,Other
+2:Ectodermal,4:Terminally differentiated,e,ABalppaaapa,110,Head,Lateral ganglia,AVAL,Interneuron,Neuron
+4:Mesodermal,4:Terminally differentiated,e,ABalpappppp,112,Pharynx,Muscle,m3VL,Muscle cell,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,ABalpappppa,117,Pharynx,Marginal,mc1V,Pharyngeal marginal cell,Pharynx
+2:Ectodermal,4:Terminally differentiated,e,ABalpapppaa,110,Pharynx,Anterior bulb,I1L,Interneuron,Neuron
+4:Mesodermal,4:Terminally differentiated,e,ABalpappapp,117,Pharynx,Marginal,mc3V,Pharyngeal marginal cell,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,ABalpappapa,104,Pharynx,Epithelium,e2V,Epithelial cell,Epithelial
+2:Ectodermal,4:Terminally differentiated,e,ABalpappaapa,110,Pharynx,Anterior bulb,I2L,Interneuron,Pharynx
+2:Ectodermal,4:Terminally differentiated,e,ABalpapappp,114,Head,Nerve ring,SMBVL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalpapapapp,114,Head,Nerve ring,SMBDL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalpapapaa,114,Head,Nerve ring,RMDDL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalpapaaap,109,Head,Cylindrical hypodermal syncytium,hyp2V,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABalpapaaaa,110,Head,Nerve ring,RIPL,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalpaapppp,109,Head,Cylindrical hypodermal syncytium,hyp2DL,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABalpaapppa,109,Head,Cylindrical hypodermal syncytium,hyp1DL,Hypodermal cell,Hypodermis
+4:Mesodermal,4:Terminally differentiated,e,ABalpaapapp,112,Pharynx,Muscle,m3L,Muscle cell,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,ABalpaapapa,117,Pharynx,Marginal,mc1DL,Pharyngeal marginal cell,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,ABalpaapaap,104,Pharynx,Epithelium,e2DL,Epithelial cell,Epithelial
+2:Ectodermal,4:Terminally differentiated,e,ABalpaaappp,114,Pharynx,Neuron,MCL,Neuron,Neuron
+4:Mesodermal,4:Terminally differentiated,e,ABalpaaapaa,112,Pharynx,Muscle,m2L,Muscle cell,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,ABalpaaaapa,112,Pharynx,Muscle,m1VL,Muscle cell,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,ABalpaaaaap,112,Pharynx,Muscle,m2VL,Muscle cell,Pharynx
+4:Mesodermal,4:Terminally differentiated,e,ABalpaaaaaa,104,Pharynx,Epithelium,e3VL,Epithelial cell,Epithelial
+2:Ectodermal,4:Terminally differentiated,e,ABalapppppp,127,Head,Socket,CEPsoDR,Socket cell,Other
+2:Ectodermal,4:Terminally differentiated,e,ABalapppppa,114,Head,Nerve ring,AVJR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalappppap,114,Lip,Inner labial sensilla,IL2DR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalappppaaa,114,Lip,Inner labial sensilla,IL1DR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalapppapp,114,Head,Nerve ring,URYDR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalapppapaa,114,Head,Outer labial sensilla,OLQDR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalapppaap,114,Head,Nerve ring,RMED,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalapppaaa,114,Head,Dorsal ganglion,ALA,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalappappp,127,Labium,Lateral outer labial,OLLsoR,Socket cell,Other
+2:Ectodermal,4:Terminally differentiated,e,ABalappappa,114,Body,Lateral in midbody,CANR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalappapaa,114,Body,Ventral nerve cord,AVHR,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalappaapa,114,Head,Neuron,RID,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalapapppp,127,Head,Socket,CEPsoDL,Socket cell,Other
+2:Ectodermal,4:Terminally differentiated,e,ABalapapppa,114,Head,Nerve ring,AVJL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalapappap,114,Lip,Inner labial sensilla,IL2DL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalapappaaa,114,Lip,Inner labial sensilla,IL1DL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalapapapp,114,Head,Nerve ring,URYDL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalapapapaa,114,Head,Outer labial sensilla,OLQDL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalapaappp,114,Lip,Inner labial sensilla,IL2L,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalapaappaa,114,Lip,Inner labial sensilla,IL1L,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalapaapaa,110,Head,Nerve ring,RIAL,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalapaaapp,127,Labium,Lateral outer labial,OLLsoL,Socket cell,Other
+2:Ectodermal,4:Terminally differentiated,e,ABalapaaapa,114,Body,Lateral in midbody,CANL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalapaaaaa,114,Body,Ventral nerve cord,AVHL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalaappppp,114,Lip,Inner labial sensilla,IL2R,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalaappppaa,114,Lip,Inner labial sensilla,IL1R,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalaapppaa,110,Head,Nerve ring,RIAR,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalaappapp,127,Lip,Quadrant outer labial,OLQsoVR,Socket cell,Other
+2:Ectodermal,4:Terminally differentiated,e,ABalaappapa,110,Head,Lateral ganglia,AVAR,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalaapappp,127,Head,Socket,CEPsoVR,Socket cell,Other
+2:Ectodermal,4:Terminally differentiated,e,ABalaapaapp,122,Lip,Inner labial,ILshR,Sheath cell (glia?),Other
+2:Ectodermal,4:Terminally differentiated,e,ABalaapaaar,110,Head,Nerve ring,AINR,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalaaapprr,127,Labium,Inner labial,ILsoR,Socket cell,Other
+2:Ectodermal,4:Terminally differentiated,e,ABalaaapprl,110,Head,lateral ganglia,AVDR,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalaaappll,122,Lip,Inner labial,ILshDR,Sheath cell (glia?),Other
+2:Ectodermal,4:Terminally differentiated,e,ABalaaaparr,122,Lip,Inner labial,ILshDL,Sheath cell (glia?),Other
+2:Ectodermal,4:Terminally differentiated,e,ABalaaapalr,110,Head,Lateral ganglia,AVDL,Interneuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalaaapall,127,Labium,Inner labial,ILsoL,Socket cell,Other
+2:Ectodermal,4:Terminally differentiated,e,ABalaaaarrp,114,Head,Nerve ring,RMER,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalaaaarlp,114,Head,Nerve ring,RMEL,Neuron,Neuron
+2:Ectodermal,4:Terminally differentiated,e,ABalaaaalpp,122,Lip,Inner labial,ILshL,Sheath cell (glia?),Other
+2:Ectodermal,4:Terminally differentiated,e,ABalaaaalal,110,Head,Nerve ring,AINL,Interneuron,Neuron
+4:Mesodermal,4:Terminally differentiated,l1,Mvrpp,112,Postembryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,"l1,l2",Mvrpap,112,Postembryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,l1,Mvrap,112,Postembryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,l1,Mvraa,112,Postembryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,l1,Mvlpp,112,Postembryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,"l1,l2",Mvlpap,112,Postembryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,l1,Mvlap,112,Postembryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,l1,Mvlaa,112,Postembryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,"l1,l2",Mdrpp,112,Postembryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,"l1,l2",Mdrap,112,Postembryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,"l1,l2",Mdraa,112,Postembryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,"l1,l2",Mdlpp,112,Postembryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,"l1,l2",Mdlap,112,Postembryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+4:Mesodermal,4:Terminally differentiated,"l1,l2",Mdlaa,112,Postembryonic body wall,Muscle,mu bod,Muscle cell,Muscle
+2:Ectodermal,4:Terminally differentiated,l1,G1r,110,Head,Nerve ring,RMHR,Interneuron,
+2:Ectodermal,4:Terminally differentiated,l1,G1l,110,Head,Nerve ring,RMHL,Interneuron,
+2:Ectodermal,4:Terminally differentiated,l1,G1r,114,Head,Nerve ring,RMHR,Neuron,
+2:Ectodermal,4:Terminally differentiated,l1,G1l,114,Head,Nerve ring,RMHL,Neuron,
+2:Ectodermal,4:Terminally differentiated,l1,TRpppap,110,Body,Lumbar ganglia,PLNR,Interneuron,
+2:Ectodermal,4:Terminally differentiated,l1,TRpppaa,114,Body,Lumbar ganglia,PHCR,Neuron,
+2:Ectodermal,4:Terminally differentiated,l1,TRppa,110,Body,Lumbar ganglia,PVWR,Interneuron,
+2:Ectodermal,4:Terminally differentiated,l1,Trpap,116,Tail,Socket,PHso2R,Phasmid socket cell,
+2:Ectodermal,4:Terminally differentiated,l1,TRpaa,116,Tail,Socket,PHso1R,Phasmid socket cell,
+2:Ectodermal,4:Terminally differentiated,l1,TRaa,109,Postembryonic large hypodermal syncytium,Hypoderm,hyp7,Hypodermal cell,
+2:Ectodermal,4:Terminally differentiated,l1,P8app,114,Body,Ventral nerve cord,VD9,Neuron,
+2:Ectodermal,4:Terminally differentiated,l1,P8apa,114,Body,Ventral nerve cord,AS8,Neuron,
+2:Ectodermal,4:Terminally differentiated,l1,P8aap,114,Body,Ventral nerve cord,VC6,Neuron,
+2:Ectodermal,4:Terminally differentiated,"l1,l2",P8aaap,114,Body,Ventral nerve cord,VB9,Neuron,
+2:Ectodermal,4:Terminally differentiated,"l1,l2",P8aaaa,114,Body,Ventral nerve cord,VA8,Neuron,
+2:Ectodermal,4:Terminally differentiated,l1,V3Ra,109,Postembryonic large hypodermal syncytium,Hypoderm,hyp7,Hypodermal cell,
+2:Ectodermal,4:Terminally differentiated,l1,P6app,114,Body,Ventral nerve cord,VD7,Neuron,
+2:Ectodermal,4:Terminally differentiated,l1,P6apa,114,Body,Ventral nerve cord,AS6,Neuron,
+2:Ectodermal,4:Terminally differentiated,l1,P6aap,114,Body,Ventral nerve cord,VC4,Neuron,
+2:Ectodermal,4:Terminally differentiated,"l1,l2",P6aaap,114,Body,Ventral nerve cord,VB7,Neuron,
+2:Ectodermal,4:Terminally differentiated,"l1,l2",P6aaaa,114,Body,Ventral nerve cord,VA6,Neuron,
+2:Ectodermal,4:Terminally differentiated,l1,ABprappaaaapp,114,Body,Ventral nerve cord,VD5,Neuron,
+2:Ectodermal,4:Terminally differentiated,l1,ABprappaaaapa,114,Body,Ventral nerve cord,AS4,Neuron,
+2:Ectodermal,4:Terminally differentiated,l1,ABprappaaaaap,114,Body,Ventral nerve cord,VC2,Neuron,
+2:Ectodermal,4:Terminally differentiated,"l1,l2",ABprappaaaaaap,114,Body,Ventral nerve cord,VB5,Neuron,
+2:Ectodermal,4:Terminally differentiated,"l1,l2",ABprappaaaaaaa,114,Body,Ventral nerve cord,VA4,Neuron,
+2:Ectodermal,4:Terminally differentiated,"l1,l2",P12pa,109,Anal,Preanal hypodermis,hyp12,Hypodermal cell,
+2:Ectodermal,4:Terminally differentiated,"l1,l2",P12app,114,Body,Ventral nerve cord,VD13,Neuron,
+2:Ectodermal,4:Terminally differentiated,"l1,l2",P12apa,114,Body,Ventral nerve cord,PDB,Neuron,
+2:Ectodermal,4:Terminally differentiated,"l1,l2",P12aaaa,114,Body,Ventral nerve cord,VA12,Neuron,
+2:Ectodermal,4:Terminally differentiated,l1,P10app,114,Body,Ventral nerve cord,VD11,Neuron,
+2:Ectodermal,4:Terminally differentiated,l1,P10apa,114,Body,Ventral nerve cord,AS10,Neuron,
+2:Ectodermal,4:Terminally differentiated,"l1,l2",P10aaap,114,Body,Ventral nerve cord,VB11,Neuron,
+2:Ectodermal,4:Terminally differentiated,"l1,l2",P10aaaa,114,Body,Ventral nerve cord,VA10,Neuron,
+2:Ectodermal,4:Terminally differentiated,l1,V5Ra,109,Postembryonic large hypodermal syncytium,Hypoderm,hyp7,Hypodermal cell,
+2:Ectodermal,4:Terminally differentiated,l1,QRpap,110,Body,Posterior body,SDQR,Interneuron,
+2:Ectodermal,4:Terminally differentiated,l1,QRpaa,114,Body,Right side of the anterior half of the body,AVM,Neuron,
+2:Ectodermal,4:Terminally differentiated,l1,QRap,114,Head,Near the posterior bulb of the pharynx,AQR,Neuron,
+2:Ectodermal,4:Terminally differentiated,l1,ABprapaappp,109,Postembryonic large hypodermal syncytium,Hypoderm,hyp7,Hypodermal cell,
+2:Ectodermal,4:Terminally differentiated,l1,ABprapaappapp,114,Body,Ventral nerve cord,VD3,Neuron,
+2:Ectodermal,4:Terminally differentiated,l1,ABprapaappapa,114,Body,Ventral nerve cord,AS2,Neuron,
+2:Ectodermal,4:Terminally differentiated,"l1,l2",ABprapaappaaap,114,Body,Ventral nerve cord,VB3,Neuron,
+2:Ectodermal,4:Terminally differentiated,"l1,l2",ABprapaappaaaa,114,Body,Ventral nerve cord,VA2,Neuron,
+2:Ectodermal,4:Terminally differentiated,l1,Wpp,114,Body,Ventral nerve cord,VD1,Neuron,
+2:Ectodermal,4:Terminally differentiated,l1,Wpa,114,Body,Ventral nerve cord,VA1,Neuron,
+2:Ectodermal,4:Terminally differentiated,l1,Waap,114,Body,Ventral nerve cord,VB2,Neuron,
+2:Ectodermal,4:Terminally differentiated,l1,Waaa,110,Head,Retrovesicular ganglion,AVFR,Interneuron,
+2:Ectodermal,4:Terminally differentiated,l1,Ka,109,Intestine,Rectal,rect hyp,Hypodermal cell,
+2:Ectodermal,4:Terminally differentiated,l1,TLpppap,110,Body,Lumbar ganglia,PLNL,Interneuron,
+2:Ectodermal,4:Terminally differentiated,l1,TLpppaa,114,Body,Lumbar ganglia,PHCL,Neuron,
+2:Ectodermal,4:Terminally differentiated,l1,TLppa,110,Body,Lumbar ganglia,PVWL,Interneuron,
+2:Ectodermal,4:Terminally differentiated,l1,TLpap,116,Tail,Socket,PHso2L,Phasmid socket cell,
+2:Ectodermal,4:Terminally differentiated,l1,TLpaa,116,Tail,Socket,PHso1L,Phasmid socket cell,
+2:Ectodermal,4:Terminally differentiated,l1,TLaa,109,Postembryonic large hypodermal syncytium,Hypoderm,hyp7,Hypodermal cell,
+2:Ectodermal,4:Terminally differentiated,l1,P7app,114,Body,Ventral nerve cord,VD8,Neuron,
+2:Ectodermal,4:Terminally differentiated,l1,P7apa,114,Body,Ventral nerve cord,AS7,Neuron,
+2:Ectodermal,4:Terminally differentiated,l1,P7aap,114,Body,Ventral nerve cord,VC5,Neuron,
+2:Ectodermal,4:Terminally differentiated,"l1,l2",P7aaap,114,Body,Ventral nerve cord,VB8,Neuron,
+2:Ectodermal,4:Terminally differentiated,"l1,l2",P7aaaa,114,Body,Ventral nerve cord,VA7,Neuron,
+2:Ectodermal,4:Terminally differentiated,e,ABplappapa,109,Postembryonic large hypodermal syncytium,,V3L,Seam Cell,Seam Cell
+2:Ectodermal,4:Terminally differentiated,e,ABplappapp,114,Postembryonic blast cell for ventral cord neurons,Ventral nerve cord,P7,Blast Cell,Blast Cell
+2:Ectodermal,4:Terminally differentiated,e,ABplappaaa,114,Postembryonic blast cell for ventral cord neurons,Ventral nerve cord,P3,Blast Cell,Blast Cell
+2:Ectodermal,4:Terminally differentiated,e,ABplappaap,114,Postembryonic blast cell for ventral cord neurons,Ventral nerve cord,P5,Blast Cell,Blast Cell
+2:Ectodermal,4:Terminally differentiated,e,ABplapaapa,,Postembryonic blast cell; excretory socket is G1 in embryo,,G2,Blast Cell,Excretory
+2:Ectodermal,4:Terminally differentiated,e,ABplapaapp,114,Postembryonic blast cell for ventral cord neurons,Ventral nerve cord,P1,Blast Cell,Blast Cell
+2:Ectodermal,4:Terminally differentiated,e,ABprapaapp,114,Postembryonic blast cell for ventral cord neurons,Ventral nerve cord,P2,Blast Cell,Blast Cell
+2:Ectodermal,4:Terminally differentiated,l1,P5app,114,Body,Ventral nerve cord,VD6,Neuron,
+2:Ectodermal,4:Terminally differentiated,l1,P5apa,114,Body,Ventral nerve cord,AS5,Neuron,
+2:Ectodermal,4:Terminally differentiated,l1,P5aap,114,Body,Ventral nerve cord,VC3,Neuron,
+2:Ectodermal,4:Terminally differentiated,"l1,l2",P5aaap,114,Body,Ventral nerve cord,VB6,Neuron,
+2:Ectodermal,4:Terminally differentiated,"l1,l2",P5aaaa,114,Body,Ventral nerve cord,VA5,Neuron,
+2:Ectodermal,4:Terminally differentiated,l1,ABplappaaaapp,114,Body,Ventral nerve cord,VD4,Neuron,
+2:Ectodermal,4:Terminally differentiated,l1,ABplappaaaapa,114,Body,Ventral nerve cord,AS3,Neuron,
+2:Ectodermal,4:Terminally differentiated,l1,ABplappaaaaap,114,Body,Ventral nerve cord,VC1,Neuron,
+2:Ectodermal,4:Terminally differentiated,"l1,l2",ABplappaaaaaap,114,Body,Ventral nerve cord,VB4,Neuron,
+2:Ectodermal,4:Terminally differentiated,"l1,l2",ABplappaaaaaaa,114,Body,Ventral nerve cord,VA3,Neuron,
+2:Ectodermal,4:Terminally differentiated,l1,P11p,109,Postembryonic large hypodermal syncytium,Hypoderm,hyp7,Hypodermal cell,
+2:Ectodermal,4:Terminally differentiated,"l1,l2",P11app,114,Body,Ventral nerve cord,VD12,Neuron,
+2:Ectodermal,4:Terminally differentiated,"l1,l2",P11apa,114,Body,Ventral nerve cord,AS11,Neuron,
+2:Ectodermal,4:Terminally differentiated,"l1,l2",P11aaaa,114,Body,Ventral nerve cord,VA11,Neuron,
+2:Ectodermal,4:Terminally differentiated,l1,P9p,109,Postembryonic large hypodermal syncytium,Hypoderm,hyp7,Hypodermal cell,
+2:Ectodermal,4:Terminally differentiated,l1,P9app,114,Body,Ventral nerve cord,VD10,Neuron,
+2:Ectodermal,4:Terminally differentiated,l1,P9apa,114,Body,Ventral nerve cord,AS9,Neuron,
+2:Ectodermal,4:Terminally differentiated,"l1,l2",P9aaap,114,Body,Ventral nerve cord,VB10,Neuron,
+2:Ectodermal,4:Terminally differentiated,"l1,l2",P9aaaa,114,Body,Ventral nerve cord,VA9,Neuron,
+2:Ectodermal,4:Terminally differentiated,l1,V5La,109,Postembryonic large hypodermal syncytium,Hypoderm,hyp7,Hypodermal cell,
+2:Ectodermal,4:Terminally differentiated,l1,QLpap,110,Body,Anterior body,SDQL,Interneuron,
+2:Ectodermal,4:Terminally differentiated,l1,QLpaa,114,Body,Left side of the posterior half of the body,PVM,Neuron,
+2:Ectodermal,4:Terminally differentiated,l1,QLap,114,Body,Left lumbar ganglia,PQR,Neuron,
+2:Ectodermal,4:Terminally differentiated,l1,ABplapaappp,109,Postembryonic large hypodermal syncytium,Hypoderm,hyp7,Hypodermal cell,
+2:Ectodermal,4:Terminally differentiated,l1,ABplapaappapp,114,Body,Ventral nerve cord,VD2,Neuron,
+2:Ectodermal,4:Terminally differentiated,l1,ABplapaappapa,114,Body,Ventral nerve cord,AS1,Neuron,
+2:Ectodermal,4:Terminally differentiated,"l1,l2",ABplapaappaaap,114,Body,Ventral nerve cord,VB1,Neuron,
+2:Ectodermal,4:Terminally differentiated,"l1,l2",ABplapaappaaaa,114,Head,Retrovesicular ganglion,AVFL,Neuron,
+2:Ectodermal,4:Terminally differentiated,e,ABplaaappp,109,Postembryonic large hypodermal syncytium,hyp7,H1L,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABarpppppp,109,Postembryonic large hypodermal syncytium,hyp7,hyp7,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABarpppppa,109,Postembryonic large hypodermal syncytium,hyp7,V4R,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABarppppap,109,Postembryonic large hypodermal syncytium,hyp7,V2R,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABarppppaa,109,Postembryonic large hypodermal syncytium,hyp7,V1R,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABarpppaap,109,Postembryonic large hypodermal syncytium,hyp7,H2R,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABarpppaaa,127,Anterior deirid socket,Socket,ADEshR,Socket cell,Other
+2:Ectodermal,4:Terminally differentiated,e,ABarppappp,109,Postembryonic large hypodermal syncytium,hyp7,V6L,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABarppappa,109,Postembryonic large hypodermal syncytium,hyp7,V4L,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABarppapap,109,Postembryonic large hypodermal syncytium,hyp7,V2L,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABarppapaa,109,Postembryonic large hypodermal syncytium,hyp7,V1L,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABarppaaap,109,Postembryonic large hypodermal syncytium,hyp7,H2L,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABarppaaaa,127,Anterior deirid socket,Socket,ADEshL,Socket cell,Other
+2:Ectodermal,4:Terminally differentiated,e,ABarpapppp,109,Postembryonic large hypodermal syncytium,hyp7,H1R,Hypodermal cell,Hypodermis
+2:Ectodermal,4:Terminally differentiated,e,ABprappapa,123,Seam hypodermal cell,hyp7,V3R,Seam Cell,Seam Cell
+2:Ectodermal,4:Terminally differentiated,e,ABprappapp,,Postembryonic blast cell for ventral cord neurons,,P8,Blast Cell,Blast Cell
+2:Ectodermal,4:Terminally differentiated,e,ABprappaaa,,Postembryonic blast cell for ventral cord neurons,,P4,Blast Cell,Blast Cell
+2:Ectodermal,4:Terminally differentiated,e,ABprappaap,,Postembryonic blast cell for ventral cord neurons,,P6,Blast Cell,Blast Cell
+2:Ectodermal,4:Terminally differentiated,e,ABprapaapa,,Postembryonic neuroblast,,W,Blast Cell,Blast Cell
+3:Endodermal,3:Multipotent/Progenitor/Precursor,e,P4,,60-cell embryo,Repro,P4,Gonad,Gonad
+,,e,ABalaaaarra,,,,ABalaaaarra,Apoptotic,Apoptotic
+,,e,ABalaaaarla,,,,ABalaaaarla,Apoptotic,Apoptotic
+,,e,ABalaaaparl,,,,ABalaaaparl,Apoptotic,Apoptotic
+,,e,ABalaaapplr,,,,ABalaaapplr,Apoptotic,Apoptotic
+,,e,ABalaapaapa,,,,ABalaapaapa,Apoptotic,Apoptotic
+,,e,ABalaapaaal,,,,ABalaapaaal,Apoptotic,Apoptotic
+,,e,ABalaapappa,,,,ABalaapappa,Apoptotic,Apoptotic
+,,e,ABalaapapa,,,,ABalaapapa,Apoptotic,Apoptotic
+,,e,ABalapaapap,,,,ABalapaapap,Apoptotic,Apoptotic
+,,e,ABalapaappap,,,,ABalapaappap,Apoptotic,Apoptotic
+,,e,ABalapapaa,,,,ABalapapaa,Apoptotic,Apoptotic
+,,e,ABalapapapap,,,,ABalapapapap,Apoptotic,Apoptotic
+,,e,MSaaappa,,,,MSaaappa,Apoptotic,Apoptotic
+,,e,MSppaapa,,,,MSppaapa,Apoptotic,Apoptotic
+,,e,MSpaaaaap,,,,MSpaaaaap,Apoptotic,Apoptotic
+,,e,MSaaaappa,,,,MSaaaappa,Apoptotic,Apoptotic
+,,e,ABarapapaaa,,,,ABarapapaaa,Apoptotic,Apoptotic
+,,e,ABalpapppap,,,,ABalpapppap,Apoptotic,Apoptotic
+,,e,MSpaapp,,,,MSpaapp,Apoptotic,Apoptotic
+,,e,MSpapapap,,,,MSpapapap,Apoptotic,Apoptotic
+,,e,MSpapaapap,,,,MSpapaapap,Apoptotic,Apoptotic
+,,e,MSpaapaap,,,,MSpaapaap,Apoptotic,Apoptotic
+,,e,MSaapaapap,,,,MSaapaapap,Apoptotic,Apoptotic
+,,e,MSaapapap,,,,MSaapapap,Apoptotic,Apoptotic
+,,e,MSapaapa,,,,MSapaapa,Apoptotic,Apoptotic
+,,e,Caapap,,,,Caapap,Apoptotic,Apoptotic
+,,e,MSpppapa,,,,MSpppapa,Apoptotic,Apoptotic
+,,e,MSpppaaa,,,,MSpppaaa,Apoptotic,Apoptotic
+,,e,MSappapa,,,,MSappapa,Apoptotic,Apoptotic
+,,e,ABprapappppp,,,,ABprapappppp,Apoptotic,Apoptotic
+,,e,ABprapapppa,,,,ABprapapppa,Apoptotic,Apoptotic
+,,e,ABpraaapppap,,,,ABpraaapppap,Apoptotic,Apoptotic
+,,e,ABpraaaaapv,,,,ABpraaaaapv,Apoptotic,Apoptotic
+,,e,ABpraaaappa,,,,ABpraaaappa,Apoptotic,Apoptotic
+,,e,ABpraaaapppp,,,,ABpraaaapppp,Apoptotic,Apoptotic
+,,e,ABplapapppa,,,,ABplapapppa,Apoptotic,Apoptotic
+,,e,ABplapaaaaa,,,,ABplapaaaaa,Apoptotic,Apoptotic
+,,e,ABalpappaapp,,,,ABalpappaapp,Apoptotic,Apoptotic
+,,e,ABalpappaaa,,,,ABalpappaaa,Apoptotic,Apoptotic
+,,e,ABalapppapap,,,,ABalapppapap,Apoptotic,Apoptotic
+,,e,ABalappaaa,,,,ABalappaaa,Apoptotic,Apoptotic
+,,e,ABalappaapp,,,,ABalappaapp,Apoptotic,Apoptotic
+,,e,ABalappapap,,,,ABalappapap,Apoptotic,Apoptotic
+,,e,ABalaapppap,,,,ABalaapppap,Apoptotic,Apoptotic
+,,e,ABalaappaa,,,,ABalaappaa,Apoptotic,Apoptotic
+,,e,ABalapppapap,,,,ABalapppapap,Apoptotic,Apoptotic
+,,e,ABalappppaap,,,,ABalappppaap,Apoptotic,Apoptotic
+,,e,ABalpppappa,,,,ABalpppappa,Apoptotic,Apoptotic
+,,e,ABalppppaav,,,,ABalppppaav,Apoptotic,Apoptotic
+,,e,ABalpppapppp,,,,ABalpppapppp,Apoptotic,Apoptotic
+,,e,ABalpppaapv,,,,ABalpppaapv,Apoptotic,Apoptotic
+,,e,ABalppppapp,,,,ABalppppapp,Apoptotic,Apoptotic
+,,e,ABalppppapap,,,,ABalppppapap,Apoptotic,Apoptotic
+,,e,ABalppppppap,,,,ABalppppppap,Apoptotic,Apoptotic
+,,e,ABalppapppap,,,,ABalppapppap,Apoptotic,Apoptotic
+,,e,ABalppaaaa,,,,ABalppaaaa,Apoptotic,Apoptotic
+,,e,ABalppaapa,,,,ABalppaapa,Apoptotic,Apoptotic
+,,e,ABalppaappa,,,,ABalppaappa,Apoptotic,Apoptotic
+,,e,ABalpaaaapp,,,,ABalpaaaapp,Apoptotic,Apoptotic
+,,e,ABalpaaapap,,,,ABalpaaapap,Apoptotic,Apoptotic
+,,e,ABaraaaapp,,,,ABaraaaapp,Apoptotic,Apoptotic
+,,e,ABarappaapp,,,,ABarappaapp,Apoptotic,Apoptotic
+,,e,ABarappaaap,,,,ABarappaaap,Apoptotic,Apoptotic
+,,e,ABarapappap,,,,ABarapappap,Apoptotic,Apoptotic
+,,e,ABarapaapap,,,,ABarapaapap,Apoptotic,Apoptotic
+,,e,ABarapaaapp,,,,ABarapaaapp,Apoptotic,Apoptotic
+,,e,ABaraaaapaa,,,,ABaraaaapaa,Apoptotic,Apoptotic
+,,e,ABarpaaapp,,,,ABarpaaapp,Apoptotic,Apoptotic
+,,e,ABarpapaapa,,,,ABarpapaapa,Apoptotic,Apoptotic
+,,e,ABalapaaaap,,,,ABalapaaaap,Apoptotic,Apoptotic
+,,e,ABalaaaalpa,,,,ABalaaaalpa,Apoptotic,Apoptotic
+,,e,ABalaaaalar,,,,ABalaaaalar,Apoptotic,Apoptotic
+,,e,ABalpapappa,,,,ABalpapappa,Apoptotic,Apoptotic
+,,e,ABalpapaapp,,,,ABalpapaapp,Apoptotic,Apoptotic
+,,e,ABalpaaappa,,,,ABalpaaappa,Apoptotic,Apoptotic
+,,e,ABprapppapa,,,,ABprapppapa,Apoptotic,Apoptotic
+,,e,ABprapppaap,,,,ABprapppaap,Apoptotic,Apoptotic
+,,e,ABprapaaaaa,,,,ABprapaaaaa,Apoptotic,Apoptotic
+,,e,ABpraaapapp,,,,ABpraaapapp,Apoptotic,Apoptotic
+,,e,ABpraaapaav,,,,ABpraaapaav,Apoptotic,Apoptotic
+,,e,Abprpppapp,,,,ABprpppapp,Apoptotic,Apoptotic
+,,e,ABprppaaap,,,,ABprppaaap,Apoptotic,Apoptotic
+,,e,ABprppaapaa,,,,ABprppaapaa,Apoptotic,Apoptotic
+,,e,ABprpppapp,,,,ABprpppapp,Apoptotic,Apoptotic
+,,e,ABplapppapa,,,,ABplapppapa,Apoptotic,Apoptotic
+,,e,ABplapppaap,,,,ABplapppaap,Apoptotic,Apoptotic
+,,e,ABplaaaaapa,,,,ABplaaaaapa,Apoptotic,Apoptotic
+,,e,ABplpppapp,,,,ABplpppapp,Apoptotic,Apoptotic
+,,e,ABplppaaap,,,,ABplppaaap,Apoptotic,Apoptotic
+,,e,ABplpappap,,,,ABplpappap,Apoptotic,Apoptotic
+,,e,ABplppaapaa,,,,ABplppaapaa,Apoptotic,Apoptotic
+,,e,ABalaappppap,,,,ABalaappppap,Apoptotic,Apoptotic
+,,e,ABalapappaap,,,,ABalapappaap,Apoptotic,Apoptotic
+,,e,ABalpapapapa,,,,ABalpapapapa,Apoptotic,Apoptotic
+,,e,ABplppaaaaa,,,,ABplppaaaaa,Apoptotic,Apoptotic
+,,e,ABaraapppaad,,,,ABaraapppaad,Apoptotic,Apoptotic
+,,e,ABarappapapa,,,,ABarappapapa,Apoptotic,Apoptotic
+,,e,ABarapppppap,,,,ABarapppppap,Apoptotic,Apoptotic
+,,e,ABplaapapppp,,,,ABplaapapppp,Apoptotic,Apoptotic
+,,e,ABplapappppp,,,,ABplapappppp,Apoptotic,Apoptotic
+,,e,ABplpaaappap,,,,ABplpaaappap,Apoptotic,Apoptotic
+,,e,ABplpaappppp,,,,ABplpaappppp,Apoptotic,Apoptotic
+,,e,ABplppaaaapa,,,,ABplppaaaapa,Apoptotic,Apoptotic

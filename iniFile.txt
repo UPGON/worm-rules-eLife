@@ -1,0 +1,7 @@
+resolutionFile=resolutions.txt
+baseDirectory=zip_lineages
+outDirectory=Results
+
+reference=reference
+
+orientationMode="MS"
