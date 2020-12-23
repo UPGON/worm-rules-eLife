@@ -42,7 +42,7 @@
 par(mar=c(3.1,3.1,2.1,1.1))
 today <- format(Sys.Date(), "%y%m%d")
 
-basewd <- "/LocalDocs/switchdrive/ev571_embryos/PROJECTS/worm-rules/"
+basewd <- "/LocalDocs/switchdrive/ev571_embryos/PROJECTS/worm-rules-eLife/"
 outDir <- paste0(basewd,"Results/",today,"/")
 if(!dir.exists(outDir)){dir.create(outDir);print("Output directory created");}else print("directory already exists")
 setwd(basewd)
@@ -51,7 +51,7 @@ setwd(basewd)
 source("R_scripts/R_functions.R")
 
 #load data that has been previously aligned and exported in proper format
-load(paste0(basewd,"/Results/200723/200723_embryos.RData"))
+load(paste0(basewd,"/200723_embryos.RData"))
 Embs$AR <- Embs$length/Embs$width
 
     Complete <- as.data.frame(Complete)
@@ -60,15 +60,18 @@ Embs$AR <- Embs$length/Embs$width
     a.cols <- grep("a[ALDM]",colnames(Complete))
     Complete[,a.cols] <- RadToDeg(Complete[,a.cols]) #from calibrate plugin
     
+    #record EMS skew in Embs table
+    ems <- Complete[Complete$Cell=="EMS", c("embryo","aMean")]
+    names(ems) 
+    Embs$EMS.angle <- 0
+    Embs[ems$embryo,"EMS.angle"] <- ems$aMean
+    Embs$EMS.skew <-  Embs$EMS.angle > 35
+    
     #color pallete
     pal<-c("#2E5268", "#64A8A1", "#D19812", "#C93230", "azure4")
 
 #Distribution of AB sizes of embryos in the analysis ####
 source(file="R_Scripts/R_plot_lineaged_embs.R", local = T) #contains code for multiple comparisons with compact letter display
-  with(Embs,cor.test(height,Size)) #r= -0.57, p=5.75e-09
-  with(Embs,cor.test(Size,AR)) # r=-0.34, p=0.0012
-  with(Embs,cor.test(height,AB_rel)) #not correlated
-  anova(lm(height~Group,data=Embs))
   
 #Define Groups ####
 alive <- Embs$Outcome =="hatched"
@@ -80,46 +83,41 @@ equalized <- Embs$AB_rel<=0.53 & Embs$AB_rel>=0.48 #49
   
 partial <- Embs$Experiment=="meta"&!(inverted|equalized) #6
 controls <- Embs$Experiment %in% c("ctrl","wt")
+controls <- Embs$Experiment %in% c("ctrl")
 
 Embs$Group <- as.character(Embs$Group)
 Embs$Group[inverted] <- "inverted"
 Embs$Group <- factor(Embs$Group, levels=c("wt","ctrl","alive","dead", "inverted"))
 
-# Annotate embryos with Pharynx defects
+# Annotate embryos with Pharynx defects - from Figure 5 - supplement E
 phaDefects <- c("PM03","PM04","PM08","PM18","PM21","PM23","PM28")
 phaDefects2 <- c("PM08","PM18",	"PM21",	"PM23", "PM28") # with ABala transformation
 
 Embs$PhaDefect <- ifelse(Embs$ID %in% phaDefects, T, F)
-Embs$PhaDefect[!grepl("P",Embs$ID)] <- NA
+Embs$PhaDefect[!grepl("P",Embs$ID)] <- NA 
 
-    #Embs[phaDefects,"MSap.flip"] # 3/5 embryos with ABala transformation have MSa/p flip at the same time
-    #taking all defectictivep Pha patterns 4/7 possitive. Seems rather random
-    
-    Embs[grep("PM",Embs$ID),c("MSap.flip","Outcome")]
-    cont <- table(Embs[grep("PM",Embs$ID),c("MSap.flip","Outcome", "PhaDefect", "Extra.P4")])
-    
-    ftable(cont)
-    strucplot(cont, type="observed", shade=T)
-    
-    s <- Embs$ID[grep("PM",Embs$ID)]
-    table(Embs[s,]$Outcome)
-    #upshifted embryos expressing  Pha-4::GFP - 15 dead, 5 alive
-    table(Embs[grepl("PM",Embs$ID)&equalized,]$Outcome) #eq. 12 dead, 4 alive 
-    
 # Size of AB in equalized alive and dead
-  t.test(AB_rel~Group,Embs[equalized,]) #alive and dead equalized have the asymmetry
-  t.test(AR~Group,Embs[equalized,]) #there is a signif., but small diff in AR, alive more elongated
-  t.test(Size~Group,Embs[equalized,]) #Dead gyus were larger, p < 0.0059 - ti might be artefact of higher compression
- 
-  with(Embs[equalized,],cor.test(height,AR)) #not corr., r=006
-  with(Embs[equalized,],cor.test(height,AB_rel)) #not signif corr., r=-012
-  # plot.corr("",save=F,Embs,"length","height", ylab="compression",xlab="length")
-  # t.test(length~Group,Embs[equalized,]) #Dead gyus were larger, p < 0.0059 - ti might be artefact of higher compression
+  t.test(AB_rel~Group,Embs[equalized,]) #alive and dead equalized have the same asymmetry
+  t.test(AR~Group,Embs[equalized,]) #there is a signif., but small diff in AR, alive more elongated, and longer 
+  t.test(Size~Group,Embs[equalized,]) #Dead gyus were larger, p < 0.0059 - it might be an artefact of higher compression
+    with(Embs,cor.test(height,Size)) #r= -0.57, p=5.75e-09, very stronly correlated
+    with(Embs,cor.test(Size,AR)) # r=-0.34, p=0.0012, also aspect ratio is correlated with size
+    with(Embs,cor.test(height,AB_rel)) #not correlated, compression does not affect asymmetry
 
-  
-# Figure 5E More compressed embryos are more likely to die ####
+# length of lin-5 embryos and WT is not different #### 
+  t.test(length~Lin_5,Embs) #no difference in legth in our data
+  aggregate(Embs$length,by=list(Embs$Lin_5),sd)  
+    #comparison of aspect ration (AR) with published data   
+    # t.test(AR~Lin_5,Embs) #there is a signif difference between N2 and our LIN-5 embryos, but small sample size - controls more elongated
+    # ts <- Embs$AR[Embs$Lin_5=="ev571"] # aspect ratio of all lineaged lin-5(embryos)
+    # yamamoto <- rnorm(length(ts), 1.6, 0.1) #simulated data according to mean and SD for AR from Yamamoto and Kimura, 2017
+    # boxplot(list(yamamoto, ts))
+    # t.test(yamamoto, ts) #lin-5(ev571) are more elogated than the N2s from their paper
+    # t.test(ts, mu=1.6) # it is different from reported AR
+    
+# Figure 4E More compressed embryos are more likely to die ####
   t.test(height~Group,Embs[equalized,])
-  #Equalzied died p=0.0016, dead 19.78 um, hatched 21.92 um
+  #Equalzed died p=0.0016, dead 19.78 um, hatched 21.92 um
   
   capture.output(
     with(Embs, {
@@ -134,17 +132,22 @@ Embs$PhaDefect[!grepl("P",Embs$ID)] <- NA
   file=paste0(outDir, today, "_Compression_in_groups.txt")
   )
   
-#Figure 5H-K MSa / MSp flip and P4 extra divisions####
+# Figure 3A-B: Plot division pace in AB and P1 ####
+source("R_Scripts/R_DivisionPaceABvsP1.R", local = T)
+
+#Figure 4H-K MSa / MSp flip and P4 extra divisions####
+#3E and Figure 4K barplots
 source("R_scripts/R_MSa.p_flip_extra.P4.R")
+
+#(for a reply to reviewers)
+source("R_scripts/R_associations_between_factors.R")
+  # no significant association between MSa/MSp flip / EMS.skew / P4 extra divisions / Pha-4 expression defects
   
-# Compute all statistics for groups ####
+# Table S2 - Compute all statistics for groups ####
 source("R_scripts/R_All_stats_export_XLSX_from_long_data.R")
     #save results also as RData
     save(results, file=paste0(outDir,today,"_all_Vars.statistics.RData"))
 
-# Figure 3A-B: Plot division pace in AB and P1 ####
-source(file="R_Scripts/R_DivisionPaceABvsP1.R", local = T)
-    
 # Figure 3F: Division sequence ####
 source("R_scripts/R_division_sequence.R")
 
@@ -154,7 +157,7 @@ source("R_scripts/R_AB-size_CC_corr.R")
 # Generate Wide Data for PCA ####
 ## DataFrame WideDf - contains aligned timing plus all big table data in an expanded format with Cell.variable format 
 
-    df <- as.data.frame(Complete)
+    df <- Complete
     df$Group <- as.character(df$Group)
     df$Group[df$embryo %in% Embs$ID[inverted]] <- "inverted"
     df <- df[!(df$embryo %in% Embs$ID[partial]),] #remove partial
@@ -169,7 +172,7 @@ source("R_scripts/R_AB-size_CC_corr.R")
   source("R_scripts/R_EMS_angle_skew.R")
 
   #outliers with skewed EMS
-  outliers <- c("GM6","GM19","GM23","GM24","GM36","GM39","GM43","MM6","PM23", "PM28","EM7","EM10") # all have tilted EMS division
+  outliers <- c("GM6","GM19","GM23","GM24","GM36","GM39","GM43","MM6","PM23", "PM28","EM7","EM10") # all have tilted EMS division, 
   # EM10 seems to be poorly aligned, far from all others in PCA
   #outliers <- c("EM10") #"PM23", "GM19" seem to be also quite different from all others
  
@@ -197,7 +200,7 @@ source("R_scripts/R_AB-size_CC_corr.R")
   
   
 # Figure 4C-D: Variation in groups over time ####
-  cells=Cellorder[3:202]
+  cells=Cellorder[3:202] #remove AB and P1 - not lineaged - lineaging typically started at 4C
   
   source("R_scripts/R_variance_plots.R") 
 
@@ -212,16 +215,18 @@ source("R_scripts/R_AB-size_CC_corr.R")
 # Clean the workspace ####
 rm(list=setdiff(ls(), c("Embs","Complete","CellF","WideDf","alive","inverted","equalized",
                         "outliers","phaDefects","phaDefects2","compressed","partial","controls","pal",
-                        "Nuclei","EmbCycles", "Cellorder", "today", "outDir","basewd", 
+                        "Nuclei","EmbCycles", "Cellorder", "today", "outDir","basewd", "outliers", 
                         "results", "volumes", "colors", "fourC","eightC","fifteenC","twentyfourC","twentyeightC","fiftysixC")))
 
 source("R_scripts/R_functions.R")
 source("R_scripts/R_functions_PCA.R")
   
-# calculate FDR #### 
+# Figure 4 - supplement 1 - A #### 
+  
+  # calculate FDR #### 
   # imput data (no NAs replaced)
   TempDf <- WideDf[,-grep("StartTime",colnames(WideDf))] # remove StartTime since it is redundant for both sisters + same as end time of mother cell
-  TempDf <- TempDf[,-grep("V.rel|sisterRatio|asynchrony",colnames(TempDf))] # remove V.rel since it was measured for very small subset of embryos, #asynchrony is not significant for any comparison alive/dead
+  TempDf <- TempDf[,-grep("V.rel|sisterRatio|asynchrony",colnames(TempDf))] # remove V.rel since it was measured for very small subset of embryos, asynchrony is not significant for any comparison alive/dead
   TempDf <- TempDf[,-grep("Time",colnames(TempDf))] # remove Time variables
 
 source("R_scripts/R_FDR_calculation.R")
@@ -257,95 +262,72 @@ source("R_scripts/R_correlation_plots.R")
 
 #Figure 4H-K: MS division angle / inversion ####
 source("R_scripts/R_MS_division_angle.R")
-
-#PCA of all embryos the data ####
-  #up to the 15C
-  cells <- c(fourC, eightC, fifteenC)
   
-  #remove rows with too many NA,
-  TempDf <- TempDf[TempDf$embryo %in% Embs$ID[Embs$MaxTime>50],] #remove embryos with too few timepoints, they would invoke too many NAs 
-  
-  # function from the functions_PCA.R
-  pcaDf <- prep.data(TempDf, cells=cells, outlierRM = T)
-  #removes rows and columns with too many NAs and fills remaining NAs with group means
-  #removes variables with <5% variance
-  #removes outliers based EMS spindle and PCA of 15 cell stage (EM10)
-  
-  source("R_scripts/R_PCA_upto_15C.R")
-  source("R_scripts/R_PCA_upto_100C.R")
-  
-# Predict outcome in equal embryos ####
+# Predict outcome in equalized embryos ####
 # LASSO regression with repeated cross-validation
 
   # imput data for LASSO (NAs replaced) , no Timing
+  cells <- c(fourC, eightC, fifteenC, twentyeightC)
+  
   TempDf <- WideDf[,-grep("StartTime",colnames(WideDf))] # remove StartTime since it is redundant for both sisters + same as end time of mother cell
   TempDf <- TempDf[,-grep("ABa.EndTime",colnames(WideDf))] #it is 0, since all time is aligned to it
   TempDf <- TempDf[,-grep("V.rel|sisterRatio|asynchrony",colnames(TempDf))] # remove V.rel since it was measured for very small subset of embryos, #asynchrony is not significant for any comparison alive/dead
   TempDf <- TempDf[TempDf$embryo %in% Embs$ID[Embs$MaxTime>50],] #remove embryos with too few timepoints, they would invoke too many NAs 
   
   lassoDf <- prep.data(TempDf, cells=cells, outlierRM = T)
-  
-source("R_scripts/R_repeated_CV_logistic_regression.R")
-  # model with repeated CV without outlier selects these variables:
-  # ABara.pDV Ca.netdis ABara.pOV ABala.pOV ABpr.aDV
-  
-source("R_scripts/R_repeated_CV_lasso_at_stages.R")
+
+  # Figure 6 ####
+  source("R_scripts/R_repeated_CV_lasso_at_stages.R")
  
-# Clusterring Heatmaps ####
-source("R_scripts/R_clustering_heatmaps.R")
+# Clusterring Heatmaps (not shown) ####
+  #source("R_scripts/R_clustering_heatmaps.R")
+  #source("R_scripts/R_clustering_all_vars.R") 
 
-# predict MS flip ####
-source("R_scripts/R_repeated_CV_predict_MS-flip.R")
-  # using variables from other cells at 8 cell stage prior to the division of MS
-  # model without outliers is really specific, but has poor sensitivity
-  # 85% AUC, 77% accuracy (n=53)
-  # "MS.pAP"    "P3.pLR"    "C.EndTime" "ABar.pDV" 
-  # it 100% successful on the controls
+# Figure 6 - supplemenet 3 Robustness ####
+ # table of change in variability vs change in mean
+ # compare equalized vs controls
+ # how many variables have greater variance without change in mean
 
-source("R_scripts/R_clustering_all_vars.R") 
+# imput data:
+TempDf <- WideDf[,-grep("StartTime",colnames(WideDf))] # remove StartTime since it is redundant for both sisters + same as end time of mother cell
+TempDf <- TempDf[,-grep("V.rel|sisterRatio|asynchrony",colnames(TempDf))] # remove V.rel and sisterRatio since it was measured for very small subset of embryos, asynchrony is derived measure
+cells=Cellorder[3:202] # Up to ~100C
 
-pdf(paste0(outDir,today,"_MS_angle.pdf"),pointsize=10,width=2.1,height=3.5)
-{   par(mfcol=c(1,1), mar=c(2.5,2.5,2.1,1.1), mgp=c(1.5,0.5,0), cex.lab=0.9, cex.axis=0.8, cex.main=1, tcl=-.35)
+q <- paste0("(",paste(cells,collapse ="|"),")\\..*") #up to ~100C
+cols <- grep(q,colnames(TempDf)) #2300 variables
+rows <- Embs$ID[controls|equalized&!(Embs$ID%in%outliers)] #remove EMS outliers
 
-  beeswarm(rad2degree(MS.aMean)~Group, #one radian is 57.3 degrees
-           data=WideDf, 
-           main="MS angle",
-           ylab="deviation of MS division °",
-           cex=0.8, pch=16, pwcol=pal[WideDf$Group])
-  with(WideDf, {
-    r=rad2degree(MS.aMean) > 30; 
-    points(as.numeric(Group[r]),rad2degree(MS.aMean)[r],pch=16);
-    text(as.numeric(Group[r]),rad2degree(MS.aMean)[r],embryo[r], cex=0.6, pos=2)
-  })
-  dev.off()
-}
+source("R_scripts/R_robustness.R")
+
+# cell-cell distances in PHA-4::GFP abnormal and normal embryos and among groups (rebuttal)####
+source("R_scripts/R_cell-cellDist.R")
 
 # not shown: Plot dense tufte plots with all variables ####
 
-# STATS REPORTED IN DENSE PLOTS ARE NOW TAKEN FROM RESULTS WHICH CONTAIN EMS SKEWED EMBRYOS
+# STATS REPORTED IN DENSE PLOTS ARE TAKEN FROM RESULTS WHICH CONTAIN EMS SKEWED EMBRYOS
 source("R_scripts/R_dense_plots.R") #plot dense plots without ouliers defined above
 
+#PCA of all embryos the data (not shown) ####
+#up to the 15C
+cells <- c(fourC, eightC, fifteenC)
 
-# Ca movement and predictions flip ####
-source("R_scripts/R_Ca.investigation.R") #look more closely on the Ca.netdis
+#remove rows with too many NA,
+TempDf <- TempDf[TempDf$embryo %in% Embs$ID[Embs$MaxTime>50],] #remove embryos with too few timepoints, they would invoke too many NAs 
 
-# TO revise further ####
+# function from the functions_PCA.R
+pcaDf <- prep.data(TempDf, cells=cells, outlierRM = T)
+#removes rows and columns with too many NAs and fills remaining NAs with group means
+#removes variables with <5% variance
+#removes outliers based EMS spindle and PCA of 15 cell stage (EM10)
 
-#source("R_scripts/R_PCA_gastrulation.R")
-#source("R_scripts/R_size.compression.models.R")
+source("R_scripts/R_PCA_upto_15C.R")
+source("R_scripts/R_PCA_upto_100C.R")
 
-  #shows that apparent embryo size correlates with amount of compression
-  #66% percent classification success just with physical variables (AB_rel, height, size)
-  
-  #Apparent size or embryo increases with compression!!!
-  #Compression has no effect on achieved AB/P1 asymmetry
-
-# factor analysis to see which variables go together 
-#source("R_scripts/R_factor_analysis.R")
-
-#source("R_scripts/R_DistanceMatrix.R") #cluster embryos based on cell-cell distances at 8C and 16C
-
-#source("/LocalDocs/switchdrive/ev571_embryos/PositionalAnalysis/R_scripts/R_cell-cellDist.R")
-
-#source("R_scripts/R_plot_tree_2.R")
+# predict MS flip (not shown) ####
+#source("R_scripts/R_repeated_CV_predict_MS-flip.R")
+# using variables from other cells at 8 cell stage prior to the division of MS
+# model without outliers is really specific, but has poor sensitivity
+# 85% AUC, 77% accuracy (n=53)
+# "MS.pAP"    "P3.pLR"    "C.EndTime" "ABar.pDV" 
+# it 100% successful on the controls
 

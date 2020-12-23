@@ -6,19 +6,14 @@
 pdf(paste0(outDir,today,"_EMS_angle_outliers.pdf"),pointsize=10,width=2.1,height=3.5)
 {   par(mfcol=c(1,1), mar=c(2.5,2.5,2.1,1.1), mgp=c(1.5,0.5,0), cex.lab=0.9, cex.axis=0.8, cex.main=1, tcl=-.35)
   
-  #one radian is 57.3 degrees
-  
   #EMS angle skew ####
-  
-  Embs$EMS.angle <-  WideDf[Embs$ID,"EMS.aMean"]
-  Embs$EMS.skew <-  Embs$EMS.angle > 35
   
   r <- Embs$EMS.skew
   angle <- Embs$EMS.angle
   # subset
   s <- !partial #without partial
   
-    plot.bxp("",data = Embs[s,],var1 = "EMS.angle", ylab1 = "EMS division orientation \n deviation from control [°]", saveit = F, ylim=c(0,90))
+    plot.bxp("",data = Embs[s,],var1 = "EMS.angle", ylab1 = "EMS angular deviation from [°]", saveit = F, ylim=c(0,90))
     abline(h=35, lty=2)
     #points(as.numeric(Embs[r,"Group"]),Embs[r,"EMS.angle"],pch=16, cex=.65);
     

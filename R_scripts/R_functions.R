@@ -1,5 +1,5 @@
-# 18.12.2018
-# Radek Jankele
+# 22.12.2020
+# Radek Jankele, EPFL
 #
 # Functions for manipulation of C. elegans lineage data
 # and for plotting
@@ -204,16 +204,19 @@ dist3D <- function(co) sqrt( (co[4] - co[1])^2 + (co[5] - co[2])^2 + (co[6] - co
 
 cell.groups <- function(cells){
   group <- rep("Early", length(cells))
-  group[grepl("P4|Z",cells)] <- "P4"
-  group[grepl("MS",cells)] <- "MS"
-  group[grepl("E",cells)] <- "E"
-  group[grepl("C",cells)] <- "C"
-  group[grepl("D",cells)] <- "D"
-  group[grepl("ABar",cells)] <- "ABar"
-  group[grepl("ABpr",cells)] <- "ABpr"
-  group[grepl("ABpl",cells)] <- "ABpl"
-  group[grepl("ABal",cells)] <- "ABal"
-  group[cells=="EMS"] <- "Early"
+  group[grepl("^(P4|Z)",cells)] <- "P4"
+  group[grepl("^MS",cells)] <- "MS"
+  #group[grepl("^MSa",cells)] <- "MSa"
+  #group[grepl("^MSp",cells)] <- "MSp"
+  group[grepl("^E",cells)] <- "E"
+  group[grepl("^Ca",cells)] <- "Ca"
+  group[grepl("^Cp",cells)] <- "Cp"
+  group[grepl("^D",cells)] <- "D"
+  group[grepl("^ABar",cells)] <- "ABar"
+  group[grepl("^ABpr",cells)] <- "ABpr"
+  group[grepl("^ABpl",cells)] <- "ABpl"
+  group[grepl("^ABal",cells)] <- "ABal"
+  group[grepl("^(EMS)", cells)] <- "Early"
   group <- factor(group)
   group
 }

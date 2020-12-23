@@ -42,7 +42,7 @@ toLong <- function(vc, cells, cc){
   list(td=td.l, y=ycoord, comp=comparisons, AB.P1=compAB.P1)
 }
 
-pdf(paste0(outDir,today,"_coefficient_of_variantion.pdf"), width=3.2,height = 8, pointsize = 10, useDingbats = F)
+pdf(paste0(outDir,today,"_coefficient_of_variantion_AB_P1.pdf"), width=3.2,height = 8, pointsize = 10, useDingbats = F)
   {
   par(mfrow=c(4,3), mar=c(3.5,2.5,2.1,0.5), mgp=c(1.5,0.55,0), cex.lab=0.9, cex.axis=0.8, cex.main=1, tcl=-.4)
   

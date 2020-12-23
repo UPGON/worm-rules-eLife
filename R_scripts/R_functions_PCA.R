@@ -188,7 +188,7 @@ getSubset <- function(Df, rows, cols, nalim=3, inpute = T, NAsColumn = 0.25){
 
   if(inpute & any(is.na(temp))) {
       cat("Imputed ", sum(is.na(temp)), " NAs with group means \n\n" )
-      temp <- apply(temp,2,replace.NAs,group=Df[rownames(temp),"Group"]) #fill NAs with group averages
+      temp <- apply(temp,2,replace.NAs,group=factor(Df[rownames(temp),"Group"])) #fill NAs with group averages
   } else print("No values imputed, table is complete")
 
   temp <- cbind(Df[rownames(temp),1:6],temp)
@@ -198,9 +198,9 @@ getSubset <- function(Df, rows, cols, nalim=3, inpute = T, NAsColumn = 0.25){
 
 prep.data <- function(Df, cells, outlierRM=T, inpute=T, variance.th=0.025){
   #removes outliers, 
+  #strips variables with <2.5% variance
   #fills NA with group means
-  #strips variables with <5% variance
-  
+
   #all variables at a given stage ####
   q <- paste("^(",paste0(cells, collapse="|"),")\\..*",sep="")
   cols <- grep(q,colnames(Df))
@@ -208,7 +208,7 @@ prep.data <- function(Df, cells, outlierRM=T, inpute=T, variance.th=0.025){
   if(length(cells)>8) Df <- Df[Df$embryo %in% Embs$ID[Embs$MaxTime>70],] # for later stages remove embryos that were not lineaged/imaged far enough (75 minutes is limit - few guys for volume)
   
   # REMOVE OUTLIERS, 
-  #because getSubset fills NA with values from each group values would get skewed
+  #because getSubset fills NA with values from each group, values would get skewed
   if(outlierRM) rows <- !(Df$embryo %in% outliers) else rows <- 1:nrow(Df)
   
   # function from the functions_PCA.R that removes  rows and columns with too many NAs and fills remaining NAs with group means

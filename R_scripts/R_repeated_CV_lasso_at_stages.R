@@ -50,16 +50,12 @@ rep.cv.glmnet <- function(mat, outcome, rep=50, type.m="mse", df.max=5, folds=5)
   res$accuracy <- conf
     
   res
-}  
+}
 df.max = 10
   
-      TempDf <- WideDf[,-grep("StartTime",colnames(WideDf))] # remove StartTime since it is redundant for both sisters + same as end time of mother cell
-      TempDf <- TempDf[,-grep("V.rel|sisterRatio|asynchrony",colnames(TempDf))] # remove V.rel since it was measured for very small subset of embryos, #asynchrony is not significant for any comparison alive/dead
-      TempDf <- TempDf[,-grep("ABa.EndTime",colnames(WideDf))] # remove StartTime since it is redundant for both sisters + same as end time of mother cell
-      TempDf <- TempDf[TempDf$embryo %in% Embs$ID[Embs$MaxTime>50],] #remove embryos with too few timepoints, they would invoke too many NAs 
-      
-      cells <- c(fourC, eightC, fifteenC, twentyeightC)
-      lassoDf <- prep.data(TempDf, cells=cells, outlierRM = T,)
+# data prep
+
+      write.xlsx(lassoDf, file=paste0(outDir,today,"_Table_S7_values.xlsx"))
       lassoDf[,7:ncol(lassoDf)] <- scale(lassoDf[,7:ncol(lassoDf)])
       
       #588 variables, 57 embryos, 236 NA inputed
@@ -68,6 +64,9 @@ df.max = 10
       
 pdf(paste0(outDir,today,"_LASSO_CV_report_at_stages.pdf"), width=5, height=8, pointsize = 11, useDingbats = F)
 { par(mfcol=c(6,4), mar=c(2.5,2.5,2,0.5), mgp=c(1.5,0.5,0),cex.lab=0.8, cex.axis=0.6, cex.main=0.8)
+  
+  wb <- createWorkbook("RJ") #for data recording
+  
   for (i in 1:length(stages)){
         stage = names(stages)[i]
         cells <- stages[[i]]
@@ -93,6 +92,8 @@ pdf(paste0(outDir,today,"_LASSO_CV_report_at_stages.pdf"), width=5, height=8, po
           , file=paste0(outDir, today, "_LASSO_embryos_included_at_stages.txt"), append = T
         )
         
+        addWorksheet(wb, sheetName=stage)
+        
         testData <- data[eqlzd,c(2,7:ncol(data))]
         outcome <- as.numeric(testData[,"Outcome"])-1
         testData$Outcome <- outcome
@@ -113,13 +114,16 @@ pdf(paste0(outDir,today,"_LASSO_CV_report_at_stages.pdf"), width=5, height=8, po
       freq <- apply(pred, 1, sum)/nrepeats
       
       if(all(freq==0)) freq=as.matrix(data.frame(Empty_model=1))
-      barplot2(freq[freq!=0], horiz=T, cex.names = 0.7, las=1, space=0.5, plot.grid=T, grid.lwd = 0.5,xlim=c(0,1),
-              main=paste0("Variable inclusion - ",stage,"-cell stage"), 
-              xlab=paste0("Inclussion freq. over ", nrepeats, " iterations"))
+      #par(mar=c(6.1, 2.5, 2.1, 0.5))
+      barplot2(freq[freq!=0], horiz=F, cex.names = 0.7, cex.lab=0.8, cex.axis = 0.8, las=2, plot.grid=T, grid.lwd = 0.5,ylim=c(0,1),
+              main=paste0("Variable inclusion - ",stage), 
+              #xlab=paste0("Inclussion freq. over ", nrepeats, " iterations")
+              )
       
       nvars <- apply(pred, 2, sum)
       freqN <- table(nvars)
       freqP <- freqN/nrepeats*100
+      
       
       hist(nvars, freq=T, main="# of predictors", 
            xlab="Number of variables", 
@@ -134,6 +138,9 @@ pdf(paste0(outDir,today,"_LASSO_CV_report_at_stages.pdf"), width=5, height=8, po
     acc <- cbind(acc,lambda$accuracy)
       
     mod1 <- glmnet(x=testmat,y=outcome,family="binomial", alpha=1, lambda = lambda$oneSE)
+    
+    writeData(wb, stage, data.frame(variable=colnames(data[,-(1:6)]),inclusion.frequency=freq, row.names=colnames(data[,-(1:6)]), oneSE.model.coef=mod1$beta[,1]))
+    
     cc <- names(sort(mod1$beta[mod1$beta[,1]!=0,1])); cat(cc)
     text(length(cc),max(freqN)*1.1,"*", adj=c(0,3), cex=1, srt=90)
     mtext(paste("BestModel:", paste(cc,collapse =" + ")), cex=0.8)
@@ -166,6 +173,7 @@ pdf(paste0(outDir,today,"_LASSO_CV_report_at_stages.pdf"), width=5, height=8, po
                  response=outcome.all, plot=T, smooth=F, auc=T, ci=T, levels = c(1,0))
         mtext(paste("AUC: ",round(pROC::auc(r)*100, digits=1),"%"),cex=0.8, line=-2)
   } # end for loop over stages
+  saveWorkbook(wb, paste0(outDir,today,"_Table_S7.xlsx"), overwrite = TRUE)
   dev.off()
 } #end pdf
 
